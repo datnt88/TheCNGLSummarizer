@@ -1,0 +1,118 @@
+ PowerVR is a division of Imagination Technologies (formerly VideoLogic) that develops hardware and software IP for 2D and 3D rendering, and for video encoding, decoding, and associated image processing. In the late 1990s they competed heavily with 3dfx in the 3D accelerator market for desktop PC's and game consoles, but both companies were forced from this market by the rise of OpenGL, Direct3D and the ATI and NVIDIA cards that better supported these technologies. Since then, the PowerVR technology has been aimed primarily at the low-power market and are now found inside many mobile devices such as palmtops and cellphones. PowerVR accelerators are not manufactured by PowerVR, but instead the IP is licensed to other companies such as NEC, Intel, TI, and Samsung. 
+
+The second generation PowerVR2 chip found a market in the Sega Dreamcast console between 1998 and 2001. As part of an internal competition at Sega to design the successor to the Saturn, the PowerVR2 was licensed to NEC and was chosen ahead of a rival design based on the 3dfx Voodoo 2. Thanks to the performance of the PowerVR2, several Dreamcast games such as Quake III Arena could rival their PC counterparts in quality and performance. However, the success of the Dreamcast meant that the PC variant, sold as Neon 250, appeared a year late to the market and was at that time mid-range at best.
+
+In 2001, STMicroelectronics adopted the third generation PowerVR3 for their STG4000 "KYRO" and STG 4500 "KYRO II" (right) chips. The STM PowerVR3 KYRO II, released in 2001, was able to rival the costlier ATI Radeon DDR and NVIDIA GeForce 2 GTS in benchmarks of the time, despite not having hardware transform and lighting. Unfortunately, as games were optimised for hardware transform and lighting, the KYRO II lost its performance advantage and is not supported by most modern games.
+
+STM's STG5000 chip was based upon the PowerVR4, which did include hardware T&amp;L but it never came to commercial fruition.
+
+The PowerVR chipset uses a unique approach to rendering a 3D scene, known as Tile-Based Deferred Rendering (often abbreviated as TBDR).  As the polygon generating program feeds triangles to the PowerVR driver it stores them in memory in triangle strip format. Unlike other architectures, polygon rendering is not performed until all polygon information has been collated for the current frame – hence rendering is deferred.
+
+In order to render, the display is split into rectangular sections in a grid pattern. Each section is known as a tile. With each tile is associated a list of the triangles that visibly overlap that tile. Each tile is rendered in turn to produce the final image.
+
+Tiles are rendered using a process similar to ray-casting. Rays are cast onto the triangles associated with the tile and a pixel is rendered from the triangle closest to the camera. The PowerVR hardware typically calculates the depths associated with each polygon for one tile row in 1 cycle.
+
+The advantage of this method is that, unlike with a more traditional z-buffered rendering pipeline, work is never done determining what a polygon looks like in an area where it is obscured by other geometry. It also allows for correct rendering of partially transparent polygons independent of the order in which they are processed by the polygon producing application. (This capability was only implemented in Series 1 and 2. It has been removed since for lack of API support and cost reasons.)More importantly, as the rendering is circumscribed to a tile at a time, the whole tile can be in fast onchip memory, which is flushed to video memory before passing on to render the next tile. Under normal circumstances, each tile is visited just once per frame.
+
+PowerVR is not the only pioneer of tile based deferred rendering, but the only one to successfully bring a TBDR solution to market. Microsoft also conceptualised the idea with their abandoned "Talisman" project. Gigapixel, a company that developed IP for tile-based deferred 3D graphics, were bought by 3Dfx, who were subsequently bought by Nvidia. Nvidia has no official plans to pursue tile-based rendering at present.
+
+Intel uses a similar concept in their integrated graphics solutions. However, their method, coined Zone Rendering, does not perform full hidden surface removal (HSR) and deferred texturing, therefore wasting fillrate and texture bandwidth on pixels that are not visible in the final image.
+
+Recent advances in hierarchical z buffering have effectively incorporated ideas previously only used in deferred rendering, including the idea of being able to split a scene into tiles and of potentially being able to accept or reject tile sized pieces of polygon.
+
+Places where PowerVR technology and its various iterations have been used are:
+
+
+
+
+
+
+
+With KYRO 3 (2D/3D AIB) products shelved due to STMicro closing its graphics division, PowerVR concentrated on the portable market with its next design, the low power PowerVR MBX.  It, and its SGX successors, have become the de facto standards for mobile 3D, having been licensed by seven of the top ten semiconductor manufacturers including Intel, Texas Instruments, Samsung, NEC, NXP Semiconductors, Freescale, Renesas, and Sunplus, and in use in many high-end cellphones including the Apple iPhone, Nokia N95, Sony Ericsson P1, and Motorola RIZR Z8.
+
+Products that have MBX on board, but do not necessarily use it:
+
+Freescale i.MX31 -- MBX Lite + FPU (VFP11™) + ARM1136
+
+Freescale i.MX31C -- MBX Lite + FPU (VFP11™) + ARM1136
+
+Freescale MPC5121e -- MBX Lite + VGP Lite + PowerPC e300
+
+Intel CE 2110 -- MBX Lite + XScale
+
+Marvell 2700G (was Intel 2700G) -- MBX Lite (as a companion to the Marvell (was Intel) XScale processor PXA27x)
+
+NXP Nexperia PNX4008 -- MBX Lite + FPU + ARM926
+
+NXP Nexperia PNX4009 -- MBX Lite + FPU + ARM926
+
+Renesas SH3707 -- MBX + VGP + FPU + SH-4
+
+Renesas SH7770 (SH-Navi1) -- MBX + VGP + FPU + SH-4A, Renesas unidentified -- MBX + SuperH
+
+Renesas SH7775 -- MBX + VGP + FPU + SH-4A
+
+Renesas SH73180 (SH-Mobile3), Renesas SH73182 (SH-Mobile3+), Renesas SH73230 (SH-Mobile3A), Renesas SH73450 (SH-Mobile3A+) -- MBX Lite + VGP Lite + SH4AL-DSP(SH-X)
+
+Renesas SH-Mobile G1 -- MBX Lite + VGP Lite + SH4AL-DSP(SH-X)
+
+Renesas SH-Mobile G2 -- MBX Lite + VGP Lite + SH4AL-DSP(SH-X)
+
+Renesas SH-Mobile G3 -- MBX Lite + VGP Lite + SH4AL-DSP(SH-X)
+
+Samsung S3C2460 -- MBX Lite + FPU + ARM926
+
+Samsung S5L8900 -- MBX Lite + VGP Lite + FPU (VFP11™) + ARM1176
+
+SiRF SiRFprima -- MBX Lite + VGP Lite + MVED1 + FPU + ARM11
+
+Sunplus unidentified -- MBX
+
+Texas Instruments OMAP 2420 -- MBX + VGP + FPU (VFP11™) + ARM1136
+
+Texas Instruments OMAP2430 -- MBX Lite + VGP Lite + FPU + ARM1136
+
+Texas Instruments OMAP2530 -- MBX Lite + VGP Lite + FPU + ARM1176
+
+Marvell PXA310 -- MVED
+
+SI Electronics unidentified -- VXD380
+
+NEC unidentified -- VXD380
+
+
+
+Products that include the SGX:
+
+Apple unidentified -- SGX520 + VXD380
+
+Apple unidentified -- SGX531 + VXD380
+
+Apple unidentified -- SGX540 + VXD380
+
+Intel CE 3100 -- SGX535(Intel GMA500) + Pentium M
+
+Intel Sodaville -- SGX + x86
+
+Intel System Controller Hub -- SGX535(Intel GMA500) + VXD370
+
+Intel Moorestown -- Lincroft SoC (SGX + very low power x86)
+
+NEC NaviEngine1  -- SGX535 + ARM11 MPCore (Quad)
+
+Renesas SH-Mobile 4 (in development) -- SGX + SH-4
+
+Texas Instruments OMAP3420 -- SGX530 + Cortex-A8
+
+Texas Instruments OMAP3430 -- SGX530 + Cortex-A8
+
+Texas Instruments OMAP3440 -- SGX530 + Cortex-A8
+
+Texas Instruments OMAP3515 -- SGX530 + Cortex-A8
+
+Texas Instruments OMAP3530 -- SGX530 + Cortex-A8
+
+Texas Instruments OMAP4XXX -- SGX540 + Cortex-A9
+
+
+

@@ -1,0 +1,12 @@
+introduction,4
+purpose,4
+conclusion,4
+summary,5
+abstract,5
+acknowledgements,-1
+bibliography,-1
+index,-1
+appendix,-1
+signs and symptoms,4
+treatment,3
+prevention,3

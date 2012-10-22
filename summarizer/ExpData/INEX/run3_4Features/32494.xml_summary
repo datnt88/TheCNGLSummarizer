@@ -1,0 +1,3 @@
+How the 'i' keystroke is processed depends on the editor mode.  (From insert mode, pressing the escape key switches the editor back to normal mode.)
+Any text typed thence gets added to the document, until the escape key is pressed, at which point the insert mode is exited and vi switches to normal mode. (There are few more commands that switch the editor into insert mode, but they differ only in where the new text will go - before the cursor, after the cursor, above current line, below current line, etc.).
+Support for regular expressions (or text patterns) is an important feature of vi. These can be used extensively in search, substitution and global search and replace commands.

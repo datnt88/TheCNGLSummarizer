@@ -1,0 +1,44 @@
+Fourier transform ion cyclotron resonance mass spectrometry, also known as Fourier transform mass spectrometry, is a type of mass analyzer (or mass spectrometer) for determining the mass-to-charge ratio (m/z) of ions based on the cyclotron frequency of the ions in a fixed magnetic field. The ions are trapped in a Penning trap (a magnetic field with electric trapping plates) where they are excited to a larger cyclotron radius by an oscillating electric field perpendicular to the magnetic field. The excitation also results in the ions moving in phase (in a packet). The signal is detected as an image current on a pair of plates which the packet of ions passes close to as they cyclotron. The resulting signal is called a free induction decay (FID), transient or interferogram that consists of a superposition of sine waves. The useful signal is extracted from this data by performing a Fourier transform to give a mass spectrum. 
+
+Fourier transform ion cyclotron resonance (FTICR) mass spectrometry is a very high resolution technique in that masses can be determined with very high accuracy. Many applications of FTICR-MS use this mass accuracy to help determine the composition of molecules based on accurate mass. This is possible due to the mass defect of the elements. Another place that FTICR-MS is useful is in dealing with complex mixtures since the resolution (narrow peak width) allows the signals of two ions of similar mass to charge (m/z) to be detected as distinct ions. This high resolution is also useful in studying large macromolecules such as proteins with multiple charges which can be produced by electrospray ionization. These large molecules contain a distribution of isotopes that produce a series of isotopic peaks. Because the isotopic peaks are close to each other on the m/z axis, due to the multiple charges, the high resolving power of the FTICR is extremely useful.
+
+FTICR-MS differs significantly from other mass spectrometry techniques in that the ions are not detected by hitting a detector such as an electron multiplier but only by passing near detection plates. Additionally the masses are not resolved in space or time as with other techniques but only in frequency. Thus, the different ions are not detected in different places as with sector instruments or at different times as with time-of-flight instruments but all ions are detected simultaneously over some given period of time.
+
+FT-ICR was invented by Alan G. Marshall and Melvin B. Comisarow at the University of British Columbia. The first paper appeared in Chemical Physics Letters in 1974. The inspiration was earlier developments in conventional ICR and Fourier Transform Nuclear Magnetic Resonance (FT-NMR) spectroscopy. Marshall has continued to develop the technique at The Ohio State University and Florida State University.
+
+The physics of FTICR is similar to that of a cyclotron at least in the first approximation.
+
+In the simplest form (idealized) the relationship between the cyclotron frequency and the mass to charge ratio is given by:
+
+f = \frac{qB}{2\pi m}where f = cyclotron frequency, q = ion charge, B = magnetic field strength and m = ion mass.
+
+This is more often represented in angular frequency:
+
+\omega _c = \frac{qB}{m}where \omega _c is the angular cyclotron frequency which is related to frequency by the definition f = \frac{\omega}{2\pi}.
+
+Because of the quadrupolar electrical field used to trap the ions in the axial direction this relationship is only approximate. The axial electrical trapping results in axial oscillations within the trap with the (angular) frequency:
+
+\omega _t = \sqrt{{\frac{q\alpha}{m}}}Where \alpha is a constant similar to the spring constant of a harmonic oscillator and is dependent on voltage and the trap dimensions and geometry.
+
+The electric field and the resulting axial harmonic motion reduces the cyclotron frequency and introduces a second radial motion called magnetron motion that occurs at the magnetron frequency. The cyclotron motion is still the frequency being used but the relationship above is not exact due to this phenomenon. The natural angular frequencies of motion are:
+
+\omega _\pm = \frac{\omega _c}{2} \pm \sqrt{\left({\frac{\omega _c}{2}}\right)^2-\left({\frac{\omega _t}{2}}\right)^2}
+
+where \omega _t is the axial trapping frequency due the axial electrical trapping and \omega _+ is the reduced cyclotron (angular) frequency and \omega _- is the magnetron (angular) frequency. Again \omega _+ is what is typically measured in FTICR. The meaning of this equation can be understood qualitatively by considering the case where  \omega _t is small, which is generally true. In that case the value of the radical is just slightly less than \omega_c/2 and the value of \omega _+ is just slightly less than \omega_c (the cyclotron frequency has been slightly reduced). For \omega_- the value of the radical is the same (slightly less than \omega_c/2) but it is being subtracted from \omega _c/2 resulting in a small number equal to \omega _c -\omega _+ (i.e. the exact amount that the cyclotron frequency was reduced by).
+
+A review of different cell geometries with their specific electric configurations is available in the literature .  However, ICR cells can belong to one of the following two categories.
+
+1. Closed cells
+
+Several closed ICR cells with different geometries were fabricated and their performance has been characterized. Grids were used as end caps to apply an axial electric field for trapping ions axially (parallel to the magnetic field lines). Ions can be either generated inside the cell (by Electron impact ionization) or can be enjected to the cell from an external ionization source (such as Electrospray or MALDI). Nested ICR cells with double pair of grids were also fabricated to trap both positive and negative ions simultaneously.
+
+2. Open cells
+
+The most common geometry is a cylinder, which is axially segmented into different parts to produce different ring electrodes. The central ring electrode is generally used for applying radial excitation electric field and detection. DC electric voltage is applied on the terminal ring electrodes to trap ions along the magnetic field lines. Open cylindrical cells with ring electrodes of different diameters have also been designed . They proved not only capable in trapping and detecting both ion polarities simultaneously, but also they succeeded to separate positive from negative ions radially. This presented a large discrimination in kinetic ion acceleration between positive and negative ions trapped simultaneously inside the new cell. Several ion axial acceleration schemes were recently written for ion-ion collision studies .
+
+
+
+
+
+
+

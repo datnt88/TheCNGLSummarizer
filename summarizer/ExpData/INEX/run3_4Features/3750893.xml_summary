@@ -1,0 +1,3 @@
+Diakonos is a customizable, usable curses-based (console-based, or text-based) text editor.
+Diakonos uses the common Macintosh/Windows keyboard shortcuts - Ctrl-C to copy, Ctrl-V to paste, Ctrl-O to open a file, Ctrl-S to save and so on, instead of the more idiosyncratic key combinations used by most other console-based editors.
+Diakonos is a Ruby program, and hence needs Ruby installed.

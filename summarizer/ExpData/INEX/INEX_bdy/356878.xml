@@ -1,0 +1,24 @@
+
+
+Xcode is a suite of tools for developing software on Mac OS X, developed by Apple. Xcode 3.0, the latest major version, is bundled free with Mac OS X v10.5, though it is not installed by default. Version 3.0 is not supported on older Mac OS versions, for which Xcode is also available for free from Apple Developer Connection.
+
+The main application of the suite is the integrated development environment (IDE), also named Xcode. The Xcode suite also includes most of Apple's developer documentation, and Interface Builder, an application used to construct graphical interfaces.
+
+The Xcode suite includes a modified version of free software GNU Compiler Collection (GCC, apple-darwin9-gcc-4.0.1 as well as apple-darwin9-gcc-4.2.1, with the former being the default), and supports C, C++, Fortran, Objective-C, Objective-C++, Java, AppleScript, Python and Ruby source code with a variety of programming models, including but not limited to Cocoa, Carbon, and Java. Third parties have added support for GNU Pascal, Free Pascal, Ada, C#, Perl, Haskell and D. The Xcode suite uses GDB as the back-end for its debugger.
+
+Xcode is also the development environment for the iPhone, starting with Xcode version 3.1.
+
+Among the features of the Xcode suite is the technology to distribute the building of source code over multiple computers. The original, now called Shared Workgroup Build, uses the Bonjour protocol to automatically discover computers providing compiler services, and the free software distcc. More recent versions of Xcode added a second system, called Dedicated Network Builds, which scales better to larger configurations.
+
+Due to modifications to GCC by Apple, Xcode can build universal binaries which allows software to run on both PowerPC and Intel-based (x86) platforms. Furthermore, the modified GCC can build 32- and 64-bit applications for both architectures. Using the iPhone SDK, Xcode can also be used to compile and debug applications for the ARM processor within the device.
+
+Xcode also includes Apple's WebObjects tools and frameworks for building Java web applications and web services (previously sold as a separate product).  As for Xcode 3.0, Apple  WebObjects development inside Xcode 3, should be used instead.  Xcode 3 still includes the WebObjects frameworks.
+
+In August 2006, Apple announced that DTrace, a dynamic tracing framework created by Sun Microsystems and released as part of OpenSolaris, would be integrated into Xcode as Xray; Xray was later renamed to Instruments.
+
+Main article: History of XcodeThe Xcode suite, like Mac OS X itself, had its roots in technology from NeXT. Prior to the October 24 2003 release of Mac OS X v10.3, Apple referred to the suite of tools as Developer Tools. The Xcode IDE was developed from and superseded Apple's earlier IDE, Project Builder which was inherited and rewritten from NeXT's IDE of the same name.
+
+
+
+
+

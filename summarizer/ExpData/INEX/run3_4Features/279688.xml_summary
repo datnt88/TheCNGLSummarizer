@@ -1,0 +1,3 @@
+Sequence (or specifically text string) patterns are often described using regular expressions (i.e. backtracking) and matched using respective algorithms.
+Pattern matching can benefit from guards.
+The simplest pattern in pattern matching is an explicit value or a variable.

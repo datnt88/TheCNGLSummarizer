@@ -1,0 +1,66 @@
+Lego pneumatics is a variety of Lego bricks which utilise air pressure and specialised components to perform various actions utilising the principles of pneumatics. 
+
+The LEGO pneumatics components were first introduced as part of the LEGO Technic range in 1984.  Since their introduction, LEGO pneumatics have featured in a variety of LEGO Technic and LEGO Educational (DACTA) products.
+
+The first generation of LEGO Pneumatics ran from 1984 through 1988. This generation was simple compared to the later generations. The pneumatic cylinders, for example, only had one input valve. This meant that in a simple pump-&amp;gt;switch-&amp;gt;cylinder setup, the cylinder rod could only push outwards, requiring gravity to pull it back in.
+
+A pneumatic distribution block piece was utilised (along with a switch) in order to enable pulling as well, however, this had limitations and often made pneumatic circuits quite complex.
+
+In 1989, the LEGO pneumatic line was revamped, and a new cylinder and pump piece were introduced. The old cylinders and pumps were discontinued. The chief difference is that the new cylinder had two input valves now, which allowed both pushing and pulling without needing complex circuits involving the distribution block piece.
+
+Over the years, several new pieces were introduced in this line as well. The new pump was spring based, and could only be operated by hand, which limited pneumatic power to how fast it could be manually pumped. This obviously limited the power of pneumatic circuits. So in 1992, LEGO introduced two new pieces; a small pump and a small cylinder. The small pump did not have a spring on it, and it was designed to be operated by a motor, which would allow for much more powerful pneumatic creations. As of 2006, the small pump has only appeared in one model set (8868 Air Tech Claw Rig) and a few parts sets(no longer available), so it is mostly a piece found on LEGO sets built by extreme enthusiasts. These pieces can no longer be obtained through the LEGOEducation Store.
+
+In 1997, LEGO introduced the Air Tank, which acts like a battery, storing compressed air so that even more powerful pneumatic circuits can be created. This piece is also very popular with the enthusiast community, but many feel that it was underutilised by LEGO, as it only appeared in 3 model sets and a parts pack. This set was available at the LEGO Education Store as well, until the beginning of 2006, when LEGO officially discontinued the piece due to budgetary reasons.
+
+In 2003, LEGO discontinued the old cylinder and switch parts, and made new "studless" versions to fit in with their transition towards removing studs from Technic sets.
+
+The key components of Lego pneumatics are:
+
+There are three versions of the pump. The old Generation 1 pump, the new Generation 2 pump (both of these are spring-loaded) and the small pump without a spring (designed for use with motors).  The Gen. 1 pump is red, while the Gen. 2 pump is yellow and has a larger contact pad at the top of the pump.
+
+Pumps are the primary source of air in a pneumatic circuit.
+
+Cylinders look like pumps, but they are the outputs of the energy, rather than the inputs. There are five versions of cylinders. The Generation 1 cylinders came in two lengths, only had one input and thus were limited in how they could be used. The Generation 2 cylinders have 2 inputs (and come in studded, studless, and small versions), and allow pushing and pulling, depending on which input air is pumped into.
+
+Switches have three ports on them, and a Lego axle which controls which of the ports are connected to each other.
+
+
+
+When a port is "open", that means it is like an open tire valve; all the air will leak out as fast as it can. When a port is closed, no air can enter or leave that port. When ports are connected, air will freely travel through the switch between those two ports.
+
+Tubing is simply the means by which air power is transferred through the circuit. Tubing can connect to a switch, air tank, T-junction, cylinder, pump, distribution block, or flex-hose.
+
+Flex-hoses aren't actually considered pneumatic pieces; they were designed as part of the Technic system for a different purpose, but Lego fans have discovered that pneumatic tubing actually fits over flex hoses pretty well, so many people use them as tubing extenders whenever they are needed. Flex hoses are more rigid than tubing.
+
+Lego pneumatic tubing almost always comes with sets in an uncut form, and are required to be cut into smaller pieces using scissors.
+
+A T-junction is a very small piece that allows three pieces of tubing to connect into one junction, essentially splitting (or joining) airflow from two hoses into one. These only allow 1:2 branching, but by combining T-junctions, any number of branches can be achieved (ie: one tube can branch into three by using two T-junctions).
+
+Air tanks are an important piece to most larger pneumatic designs, as they allow air power to be easily stored for later retrieval.
+
+In 2006, Lego has discontinued this piece. 
+
+In 2008 Lego Education has re-released the tank in a new white color, as part of an add-on set (W979641)
+
+These pieces used a special kind of one-way valve inside of them, and three ports on the outside. The leftmost port could only have air going into it, no air would ever come out. The middle port could have air going in or out. The right port could only have air coming out of it, no air could go into it.
+
+Using these, it was possible to make the Generation 1 cylinders pull down as well as push up, however the pulling wasn't as strong as the pushing, and this prompted Lego to redesign the pneumatics into an easier-to-use and stronger system.
+
+These were discontinued when Lego switched to Generation 2, in 1988.
+
+Lego pneumatics offer the opportunity to learn and experiment with the principles of pneumatics and control circuits.  Advanced use of Lego pneumatics has been made in various Lego Mindstorms creations.
+
+Lego pneumatic projects usually include a compressor made from a combination of a lego electric motor and pneumatic pump, together with a pressure switch which will activate the motor when greater pressure is required.
+
+Because a slight delay is involved between increased pressure and cylinder movement, various feedback loops can be used whereby one pneumatic component can activate another in a series of mechanical events.
+
+Lego pneumatics can be configured in such a way that electronic circuits can be replicated.  These circuits can then be combined to create digital computers.
+
+Fischertechnik offers a similar pneumatics system for robotic and control technology hobbyists.  The Fischertechnik system includes an electrically activated air solenoid, a feature not available in the Lego range.
+
+A number of hobbyists have also constructed additional components such as larger air tanks and solenoids to complement the standard Lego pneumatic components.
+
+
+
+
+

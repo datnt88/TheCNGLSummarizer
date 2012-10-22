@@ -1,0 +1,16 @@
+#Bonus words
+significant,4
+impossible,3
+hardly,3
+in summary,5
+in conclusion,5
+the best,3
+the most important,3
+this article,4
+this paper,4
+this document,4
+we conclude,4
+we report,4
+we present,4
+
+#Stigma words

@@ -1,0 +1,30 @@
+
+
+The respiratory quotient (or RQ or respiratory coefficient), is a unitless number used in calculations of basal metabolic rate (BMR) when estimated from carbon dioxide production. Such measurements, like measurements of oxygen uptake, are forms of indirect calorimetry. It is measured using Ganong's Respirometer.
+
+It can be used in the alveolar gas equation.
+
+The respiratory quotient (RQ) is calculated from the ratio:
+
+RQ = CO2 produced / O2 consumed
+
+In this calculation, the CO2 and O2 must be given in the same units, and in quantities proportional to the number of molecules. Acceptable inputs would be either moles, or else volumes of gas at standard temperature and pressure (time units may be included, but they cancel out since they must be the same in numerator and denominator).
+
+Many metabolized substances are compounds containing only the elements carbon, hydrogen, and oxygen. Examples include fatty acids, glycerol, carbohydrates, deamination products, and ethanol. For complete oxidation of such compounds, the chemical equation is
+
+CxHyOz + (x + y/4 - z/2) O2 ---&amp;gt; x CO2 + (y/2) H2O   
+
+and thus metabolism of this compound gives an RQ of x/(x + y/4 - z/2).
+
+The range of respiratory coefficients for organisms in metabolic balance usually ranges from 1.0 (representing the value expected for pure carbohydrate oxidation) to ~0.7 (the value expected for pure fat oxidation). See BMR for a discussion of how these numbers are derived. A mixed diet of fat and carbohydrate results in an average value between these numbers. An RQ may rise above 1.0 for an organism burning carbohydrate to produce or "lay down" fat (for example, a bear preparing for hibernation).
+
+RQ value corresponds to a caloric value for each liter (L) of CO2 produced. If O2 consumption numbers are available, they are usually used directly, since they are more direct and reliable estimates of energy production.
+
+RQ as measured includes a contribution from the energy produced from protein. However, due to the complexity of the various ways in which different amino acids can be metabolized, no single RQ can be assigned to the oxidation of protein in the diet.
+
+Reference 
+
+
+
+
+

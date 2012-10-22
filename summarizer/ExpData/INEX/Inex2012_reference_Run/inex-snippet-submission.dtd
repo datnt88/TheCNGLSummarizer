@@ -1,0 +1,15 @@
+<!ELEMENT inex-snippet-submission (description,topic+)>
+<!ATTLIST inex-snippet-submission
+  participant-id CDATA #REQUIRED
+  run-id CDATA #REQUIRED
+>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT topic (snippet+)>
+<!ATTLIST topic
+  topic-id CDATA #REQUIRED
+>
+<!ELEMENT snippet (#PCDATA)>
+<!ATTLIST snippet
+  doc-id CDATA #REQUIRED
+  rsv CDATA #REQUIRED
+>

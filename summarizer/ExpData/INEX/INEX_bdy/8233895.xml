@@ -1,0 +1,61 @@
+
+
+The SemWare Editor (TSE) is a very flexible text editorwith roots in the MSDOS and MS Windows environment.
+
+Starting in November 1985 as a shareware program called "Qedit" (butthere were other uses of that name), Qedit was eventually modified to run as a TSR, ported to OS/2 and eventually evolved (via rewrite) to TSE, a next generation advance over Qedit. TSE was eventually ported to Windows.
+
+As of 2004 a Linux version is under development. as of Aug 4, 2007 No Linux version is available except a beta-version through request.
+
+TSE features a very capable macro language (SemWare ApplicationLanguage or SAL), regular expression search and replace, keystroke recording and playback, full Undo/Redo, shortcut key assignment (both as configuration and on the fly) that allow extensive modification of the functionality of thetext editor, and other features expected in a modern text editor. TSE, like its predecessor Qedit, is very popular with programmers, but unlike many programmer's editors, has a devoted following of system administrators and other 'non-developer' types who value a powerful, fast and easy to use text editor.
+
+There are two online support discussion groups that include long time accomplished usersand the developer, Sammy Mitchell of SemWare Corporation.
+
+SemWare Corporation is based in Kennesaw (Georgia, USA).
+
+Over the years, SemWare moved from shareware to commercial offerings(evaluation version available for 60 days)
+
+Qedit was a powerful DOS text editor noted for low memory consumption; blazing fast I/O and search; fast responsiveness; and a simple yet powerful text-based macro language. Qedit implemented its engine and much of its application functionality in native code, with a small percentage of functionality implemented via the macro language, unlike Brief, Epsilon and other popular programmer editors of the time which implemented a native engine or core, with the bulk of the program implemented via their scripting languages.
+
+Some of Qedit's speed was due to memory-based editing - the editor and all buffers and workspace required physical memory. Later versions of Qedit added support for expanded memory (EMS), extended memory (XMS) and virtual memory, up to a maximum of 16MB.
+
+Qedit was originally written in Pascal using Borland's Turbo Pascal compiler and later converted to C and compiled with Borland's Turbo C compiler.
+
+Qedit was ported to OS/2.
+
+Qedit was rewritten and greatly expanded, ultimately released as The SemWare Editor (TSE) 1.0. The initial release kept true to the core tenets of Qedit - fast I/O, highly responsive, fast search, a simple text scripting language, and the fundamental design of a native core with functionality split between native code and script.
+
+TSE advanced over Qedit in several ways, including a new, richer scripting language (SAL), regular expressions, a native Win32 port, SAL access to Win32 DLL entrypoints, a 'graphical' port, optional native dialogs (e.g. Open), and even advanced graphical features such as window transparency. A port to Linux is currently underway.
+
+TSE has at times been referred to as 'Tessie', derived from its acronym (TSE).
+
+TSE used the codename 'RoadRunner' during initial development, until it was formally named TSE. Comments from Sammy Mitchell indicated the name change was forced due to a trademark dispute raised by another business.
+
+Earlier versions of TSE were text-mode, character-based applications, like its ancestor Qedit. Version 2.6 added a native Win32 port, but still character based (using the Win32 Console APIs). Version 4.0 included the Win32 application rewritten as a pixel-based graphical application (g32.exe). This is commonly misunderstood to be a console application, as it still appears textual, despite being a native Win32 graphical application. Visually, g32 appears to work in lines and columns, though it is a graphical application (via WinMain and GDI APIs, not the Console API).
+
+This text-like behavior greatly simplified porting existing scripts and provided a common user experience; attempts to rewrite it as a truly graphical, pixel-based application with multiple windows, MDI, fractional lines/columns and so forth would have greatly increased the development effort, likely resulting in an entirely new application with little "Qedit/TSE-ness" to it other than the title.
+
+As TSE's primary role is to view and edit text, the graphical flavor's "text-like" display is far less detriment than some initially feared (and actually a plus in many users opinion). However, the jump to a 'graphical' implementation brought several advantages by being a graphical application not tied to a Windows 'console', including a broader selection of fonts (not just raster-based console options), native dialogs for Open, Save and Print (the text mode prompts are available via configuration option and still popular with a large percentage of the user community) and window resizing including maximize.
+
+Qedit and TSE supported various line/column sizes based on the underlying video display options, but it was not until the graphical version that a window could be sized to any number of rows and columns. This occurred around the same time larger displays were becoming increasingly common, and more recently wide screen displays, forming a fortuitious nexus of TSE behavior and user capabilities.
+
+The Semware Application Language (SAL) uses a Pascal-like notation supporting procedural functions and procedures, local and global variables, constants, a preprocessor including common #include and #ifdef keywords, iterative and recursive control structures, and many text editing specific functions, which allows e.g. to automate common text editing tasks.
+
+For example:
+
+proc Main()integer Ifor I = 1 TO 3Warn( "hello world ", I )endforend
+
+SAL supports integer and string data types.
+
+An integer in SAL is a 32-bit base-2 signed integral numeric. A string in SAL is a (declared) fixed-size array of characters, with a maximum definable length of 255 characters.
+
+SAL APIs support creation of arbitrary buffers, including non-interactive buffers that are not visible to the user. A rich set of functions are available to access and manipulate buffers and their contents, effectively acting as very large text containers. As this is the fundamental data structure used by TSE to display and edit text, the breadth and depth of functionality is not surprising.
+
+This represents a list of major and minor features in TSE:
+
+
+
+
+
+
+
+----

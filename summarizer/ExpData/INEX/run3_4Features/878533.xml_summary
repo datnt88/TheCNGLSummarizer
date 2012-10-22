@@ -1,0 +1,3 @@
+NoteTab Standard includes, among other features:
+NoteTab only has syntax highlighting for HTML documents and NoteTab clip/scripts; and not for other languages.
+See also: Regular expressionThe NoteTab text editor, after NoteTab Light 5.4, allows matching text with regular expressions, such as for search or search-and-replace.

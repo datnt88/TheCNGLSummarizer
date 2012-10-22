@@ -1,0 +1,3 @@
+Although grep is not strictly an acronym, the letters are taken from global / regular expression / print, a series of instructions for the ed text editor.
+For simplicity, these examples match a single English word, but regular expressions can be extremely sophisticated (and notoriously difficult to decipher, or write-only).
+The former applies an extended regular expression syntax that was added to Unix after Ken Thompson's original regular expression implementation.

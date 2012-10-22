@@ -1,0 +1,3 @@
+For other uses, see Sed (disambiguation). sed  (Stream EDitor) refers to a Unix utility which (a) parses text files and (b) implements a programming language which can apply textual transformations to such files.
+This example used some of the following regular expression metacharacters:
+Super-sed is an extended version of sed that includes regular expressions compatible with Perl.

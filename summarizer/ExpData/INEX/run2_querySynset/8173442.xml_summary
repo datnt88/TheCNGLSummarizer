@@ -1,0 +1,3 @@
+Xwrits periodically locks the X Window System while a brightly-colored hand, alternately clenching and stretching as if in pain, is displayed to remind the user to take a break.
+It reminds the user to take a 5-minute break after every 55 minutes of typing.
+When it locks and restores the screen, it shows the image /usr/share/firefox/res/arrow.gif (a black transparent GIF) instead of the standard jail bars, hand, and brightly-colored pointing-finger "OK" notification.

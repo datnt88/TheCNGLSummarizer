@@ -1,0 +1,24 @@
+The EURion constellation is a pattern of symbols found on a number of banknote designs since about 1996. It is added to help software detect the presence of a banknote in a digital image. Such software can then block the user from reproducing banknotes to prevent counterfeiting using colour photocopiers. 
+
+The name "EURion constellation" was coined by Markus Kuhn, who uncovered the pattern in early 2002 while experimenting with a Xerox colour photocopier that refuses to reproduce banknotes. The word is a blend of Orion, a constellation of similar shape, and EUR, the euro's ISO 4217 designation.
+
+The EURion constellation first described by Kuhn consists of a pattern of five small yellow, green or orange circles, which is repeated across areas of the banknote at different orientations. The mere presence of five of these circles on a page is sufficient for some colour photocopiers to refuse processing. Andrew Steer later noted simple integer ratios between the squared distances of nearby circles, which gives further clues as to how the pattern is meant to be detected efficiently by image-processing software.
+
+The EURion constellation is most prominent and was therefore first recognised on the 10 euro banknote.
+
+Some banks integrate the constellation tightly with the remaining design of the note. On German banknotes, the EURion circles formed the innermost circles in a background pattern of fine concentric circles. On the front of former Bank of England Elgar £20 notes, they appear as green heads of musical notes, however on the Smith £20 notes of 2007 the circles merely cluster around the '£20' text. On some U.S. dollar bills, they form the digit zero in little yellow numbers that show the value of the note.
+
+Technical details regarding the EURion constellation are kept secret by its inventors and users. A patent application suggests that the pattern and detection algorithm were designed at OMRON Corporation, a Japanese electronics company. It is also not clear whether the feature has any official name. The term "Omron anti-photocopying feature" appeared in an August 2005 press release by the Reserve Bank of India. The term "Omron rings" appeared in January 2006 in the German version of this article, and was later picked up in an award announcement by a banknote collectors society.
+
+
+
+The following table lists the banknotes on which the EURion constellation has been found so far:
+
+
+
+Users of recent versions of image editors, such as Adobe Photoshop or Paint Shop Pro, discovered that these also refuse to print banknotes. According to an article in Wired magazine, the banknote detection code in these applications, called the Counterfeit Deterrence System (CDS), was designed by the Central Bank Counterfeit Deterrence Group and supplied to companies such as Adobe as a binary module. However, experiments by Steven J. Murdoch and others showed that this banknote detection code does not rely on the EURion pattern. It instead detects a digital watermark embedded in the images, developed by Digimarc. (see Central Bank Counterfeit Deterrence Group)
+
+
+
+
+

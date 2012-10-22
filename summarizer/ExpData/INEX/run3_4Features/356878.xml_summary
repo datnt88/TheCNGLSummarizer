@@ -1,0 +1,3 @@
+Xcode is a suite of tools for developing software on Mac OS X, developed by Apple.
+Due to modifications to GCC by Apple, Xcode can build universal binaries which allows software to run on both PowerPC and Intel-based (x86) platforms.
+As for Xcode 3.0, Apple  WebObjects development inside Xcode 3, should be used instead.

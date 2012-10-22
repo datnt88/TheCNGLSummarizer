@@ -1,0 +1,66 @@
+For other uses, see Mindstorm. 
+
+
+
+Lego Mindstorms NXT is a programmable robotics kit released by Lego in late July 2006. It replaces the first-generation Lego Mindstorms kit, which was called the Robotics Invention System. The base kit ships in two versions: The Retail Version and the Education Base Set.. These can be used to compete in FIRST Lego League competitions.
+
+The main component in the kit is a brick-shaped computer called the NXT brick. It can take input from up to four sensors and control up to three motors, via RJ12 cables, very similar to but incompatible with RJ11 phone cords. The brick has a 100x64 pixel monochrome LCD display and four buttons that can be used to navigate a user interface using hierarchical menus. It also has a speaker and can play sound files at sampling rates up to 8 kHz. Power is supplied by 6 AA (1.5 V each) batteries in the consumer version of the kit and by a Li-Ion rechargeable battery and charger in the educational version.
+
+Other software can also be used. 
+
+Lego has released the firmware for the NXT Intelligent Brick as Open Source.
+
+Several developer kits are available that contain documentation for the NXT:
+
+Further information: Lego_Mindstorms#Programming_languages_2Very simple programs can be written using the menu on the NXT. More complicated programs and sound files can be downloaded using a USB port or wirelessly using Bluetooth. Files can also be copied between two NXT bricks wirelessly, and some mobile phones can be used as a remote control. Up to four NXT bricks can communicate simultaneously via Bluetooth when user created programs are run. 
+
+The retail version of the kit includes software for writing programs that runs on PC and Macintosh personal computers. The software is based on National Instruments LabVIEW and provides a visual programming language for writing simple programs and downloading them to the NXT Brick.
+
+NXT-G v1.0 is the programming software that comes bundled with the NXT. There are two different programming interfaces. One is included with the retail and educational kits and the other can be purchased separately. This software is adequate for basic programming, such as driving motors, incorporating sensor inputs, doing calculations, and learning simplified programming structures and flow control. Here are some advantages and disadvantages of using version 1.0 of this software:
+
+
+
+Most of these issues have been addressed in the recently-released NXT-G v1.1 version of the software.
+
+NXT-G is powered by LabVIEW, an industry standard in programming. Created by National Instruments, LabVIEW uses data flow programming to create a virtual instrument. To allow for more advanced programming, in the graphical sense, National Instruments released a Toolkit for the NXT. Version 1.0 came out in December 2006. Since its release, several bugs have been found and new sensors have been created. While the toolkit does allow for the creation of new sensors, National Instruments is yet to formally release an update.
+
+Next Byte Codes (NBC) is a simple yet open-source language with an assembly language syntax that can be used to program the NXT brick.
+
+Not eXactly C (NXC) is a high level open-source language, similar to C, built on top of the NBC compiler. It can also be used to program the NXT brick. NXC is basically NQC for the NXT.
+
+RobotC is another programming-language based on C language for Vex, First Tech Challenge, and Lego Mindstorms.
+
+URBI is yet another language and is a parallel and event-driven language, with interfaces to C++/Java and Matlab. It also has a component architecture (UObject) for distributed computation. Urbi is compatible with many robots, including Nao (cf Robocup), Bioloid or Aibo..
+
+leJOS NXJ is a high level open source language based on Java that uses custom firmware developed by the leJOS team.
+
+To be able to write in C/C++, LEJOS OSEK can be used, but that requires custom firmware too. 
+
+
+
+
+
+MATLAB and Simulink code for NXT programming is freely available.
+
+The kit includes three identical servo motors that have built-in reduction gear assemblies with internal optical rotary encoders that sense their rotations within one degree of accuracy. The kit also includes four sensors, each with a different capability. The touch sensor detects whether it is currently pressed, has been bumped, or released. The orange Enter button and the gray right and left NXT buttons can be programmed to serve as touch sensors. The light sensor detects the light level in one direction, and also includes an LED for illuminating an object. The light sensor can sense ambient light with the LED set to off, or reflected light with the LED set to generate light. The sound sensor has a microphone and can be used to detect a sound's amplitude (loudness). The ultrasonic sensor can measure distances and detect movement. The temperature sensor can measure temperature in Celsius or Fahrenheit. The sensors come assembled and programmed. In the software mindstorms you can decide what to do with the information that come from the sensors (for example you can "tell" the robot move forward until he touches something).
+
+Third-party companies also manufacture sensors such as the color, compass, and accelerometer sensors sold by Lego.
+
+Sensors are connected to the NXT brick using a 6-position modular connector that features both analog and digital interfaces. The analog interface is backward-compatible (using an adapter) with the older Robotics Invention System. The digital interface is capable of both I2C and RS-485 communication. 
+
+Included in the base kit:
+
+Included in the education base set:
+
+Third-party parts are sold separately:
+
+
+
+
+
+
+
+
+
+
+

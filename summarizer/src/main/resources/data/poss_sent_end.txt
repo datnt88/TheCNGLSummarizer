@@ -1,0 +1,17 @@
+"."
+".."
+"..."
+"etc." 
+# abbrev + stop occurs
+"!"
+"?"
+"\""
+"''"
+# ":" 
+# in heading
+"'" 
+# for quotation
+")" 
+# for headings etc.
+"}"
+"]"

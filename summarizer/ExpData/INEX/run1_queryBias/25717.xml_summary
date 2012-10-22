@@ -1,0 +1,3 @@
+Regular expressions are used by many text editors, utilities, and programming languages to search and manipulate text based on patterns.
+He later added this capability to the Unix editor ed, which eventually led to the popular search tool grep's use of regular expressions ("grep" is a word derived from the command for regular expression searching in the ed editor: g/re/p where re stands for regular expression).
+On the other hand, there is a simple mapping from regular expressions to nondeterministic finite automata (NFAs) that does not lead to such a blowup in size; for this reason NFAs are often used as alternative representations of regular expressions.

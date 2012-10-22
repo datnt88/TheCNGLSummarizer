@@ -1,0 +1,38 @@
+Perfusion is defined as the passage of fluid through the lymphatic system or blood vessels to an organ or a tissue. The practise of perfusion scanning, is the process by which this perfusion can be observed, recorded and quantified. The term perfusion scanning encompasses a wide range of medical imaging modalities.  
+
+Being able to observe and quantify perfusion in the human body has been an invaluable step forward in medicine.  With the ability to ascertain data on the blood flow to vital organs such as the Heart and the Brain, doctors are able to make quicker and more accurate choices on treatment for patients.  Nuclear medicine has been leading perfusion scanning for some time, although the modality has certain pitfalls.  It is often dubbed 'unclear medicine' as the scans produced may appear to the untrained eye as just fluffy and irregular patterns.  More recent developments in CT and MRI has meant clearer images and solid data such graphs depicting blood flow and blood volume charted over a fixed period of time.
+
+
+
+The method by which perfusion to an organ measured by CT is still a relatively new concept.  It is most commonly carried out on a specific area of the brain to ascertain information on blood flow following a stroke or Intracranial hemorrhage.
+
+There are different techniques of detecting perfusion parameters with the use of MRI, the most common being dynamic susceptibility contrast imaging (DSC-MRI) and arterial spin labelling (ASL). In DSC-MRI, Gadolinium contrast agent is injected and a time series of fast T2*-weighted images is acquired. As Gadolinium passes through the tissues, it produces a reduction of T2* intensity depending on the local concentration. The acquired data are then postprocessed to obtain perfusion maps with different parameters, such as BV (blood volume), BF (blood flow), MTT (mean transit time) and TTP (time to peak).
+
+Nuclear medicine uses radioactive isotopes for the diagnosis and treatment of patients. Whereas radiology provides data mostly on structure, nuclear medicine provides complementary information about function. All nuclear medicine scans give information to the referrering clinician on the function of the system they are imaging.  However, there are only a few specific scans which are dedicated to looking at only one organ.
+
+
+
+Ventilation Perfusion Scans, sometimes called a VQ (Ventilation quotiant) scan, is a way of identifying mismatched areas of blood and air supply to the lungs.  It is primarily used to detect a Pulmonary embolus.
+
+The perfusion part of the study uses a radioisotope tagged to the blood which shows where in the lungs the blood is perfusing. If the scan shows up any area missing a supply on the scans this means there is a blockage which is not allowing the blood to perfuse that part of the organ.
+
+Main article: Single photon emission computed tomographySPECT is a branch of Nuclear Medicine and can be used to complement any gamma imaging study, where a true 3D representation can be helpful. E.g. tumor imaging, infection (leukocyte) imaging, thyroid imaging or bone imaging.
+
+Because SPECT permits accurate localisation in 3D space, it can be used to provide information about localised function in internal organs. E.g. functional cardiac or brain imaging.
+
+Myocardial perfusion imaging (MPI) is a form of functional cardiac imaging, used for the diagnosis of ischemic heart disease. The underlying principle is that under conditions of stress, diseased myocardium receives less blood flow than normal myocardium. MPI is one of several types of cardiac stress test.
+
+A cardiac specific radiopharmaceutical is administered. E.g. 99mTc-tetrofosmin (Myoview™, GE healthcare), 99mTc-sestamibi (Cardiolite®, Bristol-Myers Squibb now Lantheus Medical Imaging). Following this, the heart rate is raised to induce myocardial stress, either by exercise or pharmacologically with adenosine, dobutamine or dipyridamole (aminophylline can be used to reverse the effects of dipyridamole).
+
+SPECT imaging performed after stress reveals the distribution of the radiopharmaceutical, and therefore the relative blood flow to the different regions of the myocardium. Diagnosis is made by comparing stress images to a further set of images obtained at rest. As the radionuclide redistributes slowly, it is not usually possible to perform both sets of images on the same day, hence a second attendance is required 1-7 days later (although, with a Tl-201 myocardial perfusion study with dipyridamole, rest images can be acquired as little as two-hours post stress). However, if stress imaging is normal, it is unnecessary to perform rest imaging, as it too will be normal – thus stress imaging is normally performed first.
+
+MPI has been demonstrated to have an overall accuracy of about 83% (sensitivity: 85%; specificity: 72%) http://jnm.snmjournals.org/cgi/content/abstract/43/12/1634, and is comparable (or better) than other non-invasive tests for ischemic heart disease, including stress echocardiography.
+
+Usually the gamma-emitting tracer used in functional brain imaging is 99mTc-HMPAO (hexamethylpropylene amine oxime). 99mTc is a metastable nuclear isomer which emits gamma rays which can be detected by a gamma camera. When it is attached to HMPAO, this allows 99mTc to be taken up by brain tissue in a manner proportial to brain blood flow, in turn allowing brain blood flow to be assessed with the nuclear gamma camera.
+
+Because blood flow in the brain is tightly coupled to local brain metabolism and energy use, the 99mTc-HMPAO tracer (as well as the similar 99mTc-EC tracer) is used to assess brain metabolism regionally, in an attempt to diagnose and differentiate the different causal pathologies of dementia. Meta analysis of many reported studies suggests that SPECT with this tracer is about 74% sensitive at diagnosing Alzheimer's disease, vs. 81% sensitivity for clinical exam (mental testing, etc.). More recent studies have show accuracy of SPECT in Alzheimer diagnosis as high as 88% PMID 16785801. In meta analysis, SPECT was superior to clinical exam and clinical criteria (91% vs. 70%) in being able to differentiate Alzheimer's disease from vascular dementias. PMID 15545324  This latter ability relates to SPECT's imaging of local metabolism of the brain, in which the patchy loss of cortical metabolism seen in multiple strokes differs clearly from the more even or "smooth" loss of non-occipital cortical brain function typical of Alzheimer's disease.
+
+99mTc-HMPAO SPECT scanning competes with FDG PET scanning of the brain, which works to assess regional brain glucose metabolism, to provide very similar information about local brain damage from many processes. SPECT is more widely available, however, for the basic reason that the radioisotope generation technology is longer-lasting and far less expensive in SPECT, and the gamma scanning equipment is less expensive as well. The reason for this is that 99mTc (technetium-99m) is extracted from relatively simple technetium-99m generators which are delivered to hospitals and scanning centers weekly, to supply fresh radioisotope, whereas FDG PET relies on FDG which must be made in an expensive medical cyclotron and "hot-lab" (automated chemistry lab for radiopharmaceutical manufacture), then must be delivered directly to scanning sites, with delivery-fraction for each trip handicapped by its natural short 110 minute half-life.
+
+
+

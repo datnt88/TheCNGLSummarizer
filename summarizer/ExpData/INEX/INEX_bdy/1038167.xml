@@ -1,0 +1,40 @@
+
+
+vile is a text editor that attempts to combine the best aspects of the popular Emacs and vi editors. These editors are traditionally located on opposing sides of the editor wars, as users of Emacs and vi tend to have strong sentiments against the editor they do not use; however, vile at least attempts to reconcile these positions. 
+
+vile is an acronym which stands for "VI Like Emacs".  vile is featured in Chapter 12 of the O'Reilly book "Learning the vi Editor". The program is also known as xvile for the X Window System, and as winvile for Microsoft Windows.
+
+vile was created and originally maintained by Paul Fox. In 1996, maintenance was taken over by Thomas Dickey, who had provided many major contributions to the codebase over the preceding years.
+
+Historically, vile's documentation has focused on differences from vi. This is in contrast to the other common vi-clones (elvis, nvi and vim), which have combined their respective extensions with the original vi documentation.
+
+vile's documentation is three parts:
+
+vile is built from a combination of hand-crafted code and tables processed by a special-purpose program. The predefined information from the tables can be rendered in various ways, including showing the available commands, providing name-completion, etc. In other flavors of vi, the analogous tables are not distinct from the hand-crafted code.
+
+In other vi flavors, the information shown is static, requiring interaction from the user to make it update. In vile, however, this information is dynamic—it updates these special windows as changes are made to the features they render, e.g., the list of all buffers in memory, the mode-settings corresponding to the buffer which has focus, etc.
+
+While many (not all) of vile's features are now found in other vi-compatible editors, some of the most powerful were implemented before widespread adoption in the others. For example, multiple windows were early features in vile (and xvi) from the start. The same applies to reading from pipes, complex fences. Some of this is brought out in the O'Reilly book, though no careful study has been made of the way in which features are adopted and adapted across the vi and emacs variants.
+
+
+
+
+
+vile supports command completion for several elements of a command: the command-name, file-name, directory-name, and mode values.
+
+Both vi and emacs have modes, which are settings which affect the behavior of the program.  vile extends the vi modes such as list, number, etc., by providing three levels of mode: global, buffer and window.  The buffer modes are associated with the buffer contents, e.g., line-terminators, read-only attributes.  All of those modes are predefined.  vile can be customized by defining majormodes, which combine specific settings of the buffer modes with an association to the file type.  These majormodes have as well special modes such as the association with a specific syntax filter.
+
+vile performs syntax highlighting by running a syntax filter program which parses the buffer contents.  Initially this was a separate program.  However, to improve performance and avoid display problems, these syntax filters usually are compiled into the editor.  Most of the syntax filters are implemented with lex (preferably flex), with the remainder in C to address irregular grammars such as Perl and Ruby.  All of the syntax filters follow the same design:
+
+vile paints the markup information on top of the buffer contents using in regions delimited by line and column numbers.  The markup is not attached to the underlying buffer contents.  To update the markup as the buffer is changed requires reanalysis.  This is done automatically when the user pauses.
+
+vile has been under continuous development since 1990.  Some highlights:
+
+
+
+
+
+
+
+
+

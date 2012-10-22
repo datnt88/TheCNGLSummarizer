@@ -1,0 +1,3 @@
+Pico is a text editor for Unix and Unix-based computer systems.
+It also cannot copy text from one file to another (though it is possible to read text into the editor from a file in its working directory).
+By comparison, some popular Unix text editors such as vi and Emacs provide a significantly greater number of features than Pico, including regular expression search and replace and working with multiple files at the same time.

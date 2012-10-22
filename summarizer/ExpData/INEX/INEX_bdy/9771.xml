@@ -1,0 +1,34 @@
+ed is the standard text editor on the Unix operating system.  ed was originally written by Ken Thompson and contains one of the first implementations of regular expressions.  Prior to that implementation, the concept of regular expressions was only formalized in a mathematical paper, which Ken Thompson had read. ed was influenced by an earlier editor known as QED from University of California at Berkeley, Ken Thompson's alma mater. ed went on to influence ex, which in turn spawned vi. The non-interactive Unix commands grep and sed were inspired by common special uses of ed; their influence is visible in the design of the programming language AWK, which in turn inspired aspects of Perl.
+
+Famous for its terseness, ed gives almost no visual feedback. For example, the message that ed will produce in case of error, or when it wants to make sure the user wishes to quit without saving, is "?".  It does not report the current filename or line number, or even display the results of a change to the text, unless requested. This terseness was appropriate in the early versions of Unix, when consoles were teletypes, modems were slow, and memory was precious. As computer technology improved and these constraints were loosened, editors with more visual feedback became the standard.
+
+In current practice, ed is rarely used interactively, but does find use in some shell scripts.  For interactive use, ed was subsumed by the sam, vi and Emacs editors in the 1980s. ed can be found on virtually every version of Unix and Linux available, and as such is useful for people who have to work with multiple versions of Unix. If something goes wrong, ed is sometimes the only editor available. This is often the only time when it is used interactively.
+
+The ed commands are often imitated in other line-based editors. For example, EDLIN in early MS-DOS versions and 32-bit versions of Windows NT has a somewhat similar syntax, and text editors in many MUDs (LPMud and descendants, for example) use ed-like syntax. These editors, however, are typically more limited in function.
+
+Here is an example transcript of an ed session. For clarity, commands and text typed by the user are in normal face, and output from ed is emphasized.
+
+aed is the standard Unix text editor. This is line number two. . 2i . %led is the standard Unix text editor.$$This is line number two.$3s/two/three/,led is the standard Unix text editor.$$This is line number three.$w text65q
+
+The end result is a simple text file containing the following text:
+
+ed is the standard Unix text editor.  This is line number three.
+
+Started with an empty file, the a command appends text (all ed commands are single letters). The command put ed in insert mode, inserting the characters that follow and is terminated by a single dot on a line. The two lines that are entered before the dot end up in the file buffer. The 2i command also goes into insert mode, and will insert the entered text (a single empty line in our case) before line two. All commands may be prefixed by a line number to operate on that line.
+
+In %l the l stands for the list command. The command is prefixed by a range, in this case % which is a shortcut for 1,$. A range is two line numbers separated by a comma ($ means the last line). In return, ed lists all lines, from first to last. These lines are ended with dollar signs, so that white space at the end of lines is clearly visible.
+
+The error in line 3 is corrected with 3s/two/three/, a substitution command. The 3 will apply it to the correct line, following the command is the text to be replaced, and then the replacement. Listing all lines with ,l (a lone comma is also a synonym for %) the line is shown now to be correct.
+
+w text writes the buffer to the file "text" making ed respond with 65, the number of characters written to the file. q will end an ed session.
+
+In the editor wars, Emacs proponents used to say, "even Bill Joy doesn't use vi anymore."
+
+In a 1984 interview Bill Joy explained that, at Sun, he used an early desktop publishing program, called Interleaf; when visiting labs outside Sun, he used plain old ed. Although vi was almost ubiquitous,  he could not count on the local version working the way he expected. However, ed was never modified, so he could count on making it work without making himself look like a fool.
+
+
+
+
+
+
+

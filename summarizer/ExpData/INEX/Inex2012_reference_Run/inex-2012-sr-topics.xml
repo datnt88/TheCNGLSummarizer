@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<!DOCTYPE inex-topic-file [
+<!ENTITY lt "lessthan">
+<!ENTITY gt "greaterthan">
+<!ENTITY amp "ampersand">
+<!ELEMENT inex-topic-file (topic)+>
+<!ELEMENT topic (title , phrasetitle , description , narrative)>
+<!ATTLIST topic id CDATA #REQUIRED>
+<!ATTLIST topic ct_no CDATA #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT phrasetitle (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT narrative (#PCDATA)>
+]>
+<inex-topic-file>	
+	<topic id="2012001" ct_no="1">
+		<title>Death of John Lennon</title>
+		<phrasetitle>Death of "John Lennon"</phrasetitle>
+		<description>Information about John Lennon's death</description>
+		<narrative>I want to know how where and when (including time of day) when John Lennon died.  Now I know he was shot, but what was the name of the guy who shot him?</narrative>
+	</topic>
+	<topic id="2012002" ct_no="2">
+		<title>Lego vs mega blocks</title>
+		<phrasetitle>Lego vs "Mega Blocks"</phrasetitle>
+		<description>Information about the Lego vs Mega Blocks law suits</description>
+		<narrative>I want to know about the Lego vs Mega Blocks law suits, where and when, what the outcome was.  For this I will be able to determine where I can and can't purchase megablocks for my kids.</narrative>
+	</topic>
+    <topic id="2012003" ct_no="3">
+		<title>banana diseases</title>
+		<phrasetitle>banana diseases</phrasetitle>
+		<description></description>
+		<narrative>I recently learned that there have been several diseases that have threatened banana populations in the past leaving us with an almost mono-culture. I'm interested in learning about these diseases, and the effect they had on banana populations.</narrative>
+	</topic>
+	<topic id="2012004" ct_no="4">
+		<title>Comparative safety of SUVs</title>
+		<phrasetitle>Comparative safety of SUVs</phrasetitle>
+		<description>Safety of SUVs compared to regular cars</description>
+		<narrative>So, like, we were at dinner the other day and the usual SUVs are safer than regular cars debate started.  I want to know which are safer and who says so.</narrative>
+	</topic>
+	<topic id="2012005" ct_no="5">
+		<title>Sharp and Apple</title>
+		<phrasetitle>Sharp and Apple</phrasetitle>
+		<description>Does Sharp manufacture any Apple products?</description>
+		<narrative>Does sharp manufacture any apple products, and if so then which ones? Any article that describes an Apple product manufactured by Sharp is relevant.</narrative>
+	</topic>
+	<topic id="2012006" ct_no="6">
+		<title>MRI cyclotron</title>
+		<phrasetitle>MRI cyclotron</phrasetitle>
+		<description>Relationship between MRI and cyclotron</description>
+		<narrative>I'm about to get an MRI on my hip.  I think cyclotron is a cool word and they have something to do with CT or MRI or  X-ray or something.  I want to know if I' can get to see a cyclotron when I get my MRI which means I want tonw about the relationship between the two.  Primarily I want to know if I'll get to see one or not.</narrative>
+	</topic>
+	<topic id="2012007" ct_no="7">
+		<title>Crystal palace fire</title>
+		<phrasetitle>"Crystal Palace" fire</phrasetitle>
+		<description>Information about the Crystal Palace fire</description>
+		<narrative>I know there are some cool photos of crystal palace burning down, so it must have happened after the invention of photography. But when did it happen and how did it catch light.  Its made of iron and glass which don't burn.</narrative>
+	</topic>
+	<topic id="2012008" ct_no="8">
+		<title>Dunedin penguins</title>
+		<phrasetitle>Dunedin penguins</phrasetitle>
+		<description>What penguins can be found in Dunedin, and where?</description>
+		<narrative>The ADCS conference is being held in Dunedin this year and I want to go.  I also.love birds and understand Dunedin has several kinds of penguins.  I want to know what kinds and where are the best places to see them.</narrative>
+	</topic>
+	<topic id="2012009" ct_no="9">
+		<title>Gelatin BSE</title>
+		<phrasetitle>Gelatin BSE</phrasetitle>
+		<description>What is gelatin made from, and could I be exposed to BSE by eating it?</description>
+		<narrative>What do they  make Gelatin from?  This was a dinner time discussion.  Most particular we wanted to know whether we were exposing ourselves to BSE and CJD by eating it.</narrative>
+	</topic>
+	<topic id="2012010" ct_no="10">
+		<title>Thesis dissertation</title>
+		<phrasetitle>Thesis dissertation</phrasetitle>
+		<description>What is the difference between a thesis and a dissertation?</description>
+		<narrative>What is the difference between a thesis and a dissertation? Any article which explains the difference between the two is relevant.</narrative>
+	</topic>
+	<topic id="2012011" ct_no="11">
+		<title>text editor regular expressions</title>
+		<phrasetitle>"text editor" "regular expressions"</phrasetitle>
+		<description>Text editors with regular expression support.</description>
+		<narrative>I am looking for a text editor which supports searching using regular expressions. Any document describing such a program is relevant.</narrative>
+	</topic>
+	<topic id="2012012" ct_no="12">
+		<title>controversial Seinfeld episode</title>
+		<phrasetitle>controversial Seinfeld episode</phrasetitle>
+		<description>Controversial episodes of the TV series "Seinfeld"</description>
+		<narrative>I would like to read about episodes of the TV series "Seinfeld" that have been considered controversial.</narrative>
+	</topic>
+	<topic id="2012013" ct_no="13">
+		<title>country rainforest desert</title>
+		<phrasetitle>country rainforest desert</phrasetitle>
+		<description>Countries containing both rainforests and deserts.</description>
+		<narrative>I am interested in reading about countries which feature a wide range of climates -- specifically, those which feature both rainforests and deserts.</narrative>
+	</topic>
+	<topic id="2012014" ct_no="14">
+		<title>Nintendo game Luigi playable</title>
+		<phrasetitle>Nintendo game Luigi playable</phrasetitle>
+		<description>Nintendo video games in which Luigi is a playable character.</description>
+		<narrative>The most well known video game character in the world is Mario, however his lesser known brother is Luigi. I would like to find out about any video games in which you can play as Luigi. To be relevant, an article must describe a game in which Luigi is a playable character. I am not interested in games in which Luigi appears as a non-playable character only.</narrative>
+	</topic>
+	<topic id="2012015" ct_no="15">
+		<title>public transport smart card</title>
+		<phrasetitle>"public transport" "smart card"</phrasetitle>
+		<description>Public transport systems with smart card ticketing systems.</description>
+		<narrative>In recent years, many public transport systems around the world have started using smart cards for ticketing. I am interested in reading about public transport systems that have adopted a smart card system. I am not interested in smart cards that are not used for public transport, nor am I interested in public transport systems which do not use smart cards for ticketing.</narrative>
+	</topic>
+	<topic id="2012016" ct_no="16">
+		<title>animated Disney movie -princess</title>
+		<phrasetitle>animated Disney movie -princess</phrasetitle>
+		<description>Animated Disney films which do not feature princesses.</description>
+		<narrative>My nephew likes watching animated Disney films, however he doesn't like any which feature princesses. Any article describing an animated Disney movie that doesn't feature a princess is considered relevant.</narrative>
+	</topic>
+	<topic id="2012017" ct_no="17">
+		<title>carbohydrate fat protein ratio</title>
+		<phrasetitle>carbohydrate fat protein ratio</phrasetitle>
+		<description>Articles describing a suggested ratio of carbohydrates, fat and protein for a human diet.</description>
+		<narrative>The three major nutrients that humans need in their diets are carbohydrates, fats and proteins -- however, eating too many of one and not enough of another can lead to health problems. There are many opinions on what the ideal ratio of these three nutrients should be. I am interested in any article which describes any such ratio.</narrative>
+	</topic>
+	<topic id="2012018" ct_no="18">
+		<title>police car make model</title>
+		<phrasetitle>"police car" make model</phrasetitle>
+		<description>Cars that have been used as police vehicles.</description>
+		<narrative>Police cars are often regular passenger vehicles which are modified for use by a police force. I am interested in finding out which specific makes and models of cars have been used as police vehicles.</narrative>
+	</topic>
+	<topic id="2012019" ct_no="19">
+		<title>discoverer multiple chemical elements</title>
+		<phrasetitle>discoverer multiple "chemical elements"</phrasetitle>
+		<description>People who have discovered multiple chemical elements.</description>
+		<narrative>Of the 118 known chemical elements, 105 were discovered in the past 300 years, and so we usually know who specifically discovered each element. I am interested in reading about people who have discovered multiple elements. I am not interested in people who discovered only one element.</narrative>
+	</topic>
+	<topic id="2012020" ct_no="20">
+		<title>person appear on banknote</title>
+		<phrasetitle>person appear on banknote</phrasetitle>
+		<description>People who have appeared on a banknote.</description>
+		<narrative>I am interested in reading about people who have appeared on a banknote of any currency.</narrative>
+	</topic>
+	<topic id="2012021" ct_no="21">
+		<title>marilyn monroe played impersonator actor</title>
+		<phrasetitle>"played marilyn monroe" "marilyn monroe impersonator" "impersonated marilyn monroe"  "appeared as marilyn monroe"</phrasetitle>
+		<description>Looking for a Marilyn Monroe impersonator or actor who played her role</description>
+		<narrative>Looking for several actors who played in the role of Maralyn Monroe to interview for a book on her legacy and the different perceptions of her.  Information about the circumstances in connection to Maralin Monroe and sufficinet information to identify the person who is reported to have acted her part is relevant.</narrative>
+	</topic>
+	<topic id="2012022" ct_no="22">
+		<title>gallo roman architecture in paris</title>
+		<phrasetitle>"gallo roman" architecture in paris</phrasetitle>
+		<description>"gallo roman" architecture in paris</description>
+		<narrative>I am looking for gallo roman architecture ruins, buildings, or remains in or around Paris. Buildings that copy the gallo roman architecture are also relevant for me.  I am making a trip of few days in Paris and I like to find out where I can see such buildings.  </narrative>
+	</topic>
+	<topic id="2012023" ct_no="23">
+		<title>famous flute solos symphony</title>
+		<phrasetitle>"flute solo" symphony</phrasetitle>
+		<description>famous flute solos in symphonies</description>
+		<narrative>My friend is playing the primary flute in an orchestra. I want to know, what are the most famous flute solos in symphonies. A relevant element should discuss about the matter by defining the symphony and preferably where the flute solo occurs.</narrative>
+	</topic>
+	<topic id="2012024" ct_no="24">
+		<title>Bond Girls</title>
+		<phrasetitle>"bond girls"</phrasetitle>
+		<description>I want the names of the actresses that have played the role as James Bond girl in any of the James Bond movies.</description>
+		<narrative>Each answer should be an article describing the biography of each of the actresses that have been Bond girls, including the corresponding movie where they took that role.</narrative>
+	</topic>
+	<topic id="2012025" ct_no="25">
+		<title>Indo Pakistan relation Kargil war</title>
+		<phrasetitle>Indo Pakistan relation "Kargil war"</phrasetitle>
+		<description>Retrieve documents about Indo Pakistan relations in general with a particular reference to Kargil War</description>
+		<narrative>The documents discussing about the post independence relationship between the two neighboring countries is sought here. Documents about wars between the two countries is also relevant. Sections or paragraphs about the Kargil war in a document makes it highly relevant. General information about India and Pakistan in isolation is irrelevant here.</narrative>
+	</topic>
+	<topic id="2012026" ct_no="26">
+		<title>beer alcohol health effects</title>
+		<phrasetitle/>
+		<description>What are the effects of beer on health? Is there a difference between the different kinds/brands of beers?</description>
+		<narrative>Find any information about benefits of beer on health. Which of the beers has benefits, and what are the reasons. I don't need information about alcohol effects on health in general.</narrative>
+	</topic>
+	<topic id="2012027" ct_no="27">
+		<title>health risk coca leaf</title>
+		<phrasetitle>"health risk" "coca leaf" "traditional coca leaf consumption" "health study"</phrasetitle>
+		<description>Any information about health implication of traditional coca leaf consumption.</description>
+		<narrative>I'm trying to figure out if shewing coca leafs or drinking coca tea is more unhealthy than drinking coffee or tea. Information about cocaine consumption are not relevant, neither is information about reasons of coca leaf consumption.</narrative>
+	</topic>
+	<topic id="2012028" ct_no="28">
+		<title>volcanic ash cloud flight disruption</title>
+		<phrasetitle>volcanic, ash, cloud, "flight disruption"</phrasetitle>
+		<description>Why should planes avoid volcanic ash?</description>
+		<narrative>I am interested in information about volcanic ash clouds that caused flight disruptions or incidents in the past. Anything that tells me what's wrong with flying through ash clouds is relevant, be it technical explanations or examples of incidents that occurred.</narrative>
+	</topic>
+	<topic id="2012029" ct_no="29">
+		<title>Tose Proeski humanitarian work</title>
+		<phrasetitle>"Tose Proeski" "humanitarian work"</phrasetitle>
+		<description>Find information about Tose Proeski's humanitarian work</description>
+		<narrative>Tose Proeski was the most popular Macedonian singer across the entire Balkan and further. He was especially known for his strong vocal performances and his precious humanitarian work. During his lifetime, Proeski held numerous humanitarian concerts for several  reasons (he died in a car accident at the age of 26).   I am a big fan of Tose's work and I am fascinated of his activities, and so I would like to get more information about all his humanitarian work. This information would help me realize my intention in writing an article about it.  Relevant documents or document parts should discuss about humanitarian concerts and all fund-raising events that were organised by Tose Proeski. Documents or document parts discussing about his biography, his songs and albums are not relevant.  </narrative>
+	</topic>
+	<topic id="2012030" ct_no="30">
+		<title>factors determining human height</title>
+		<phrasetitle/>
+		<description>Explain factors that determine adult human height.</description>
+		<narrative>Most of the members of my family and relatives are tall for their age/gender/ethnicity. But a few of them are short. I'd like to know how that came about. Is this malnutrition, or one short gene sneaking around? A passage that describes anything that determines adult human height is relevant. A passage that describes correlation of a human trait with a human height is only relevant if there is a possibly causation. For example, a passage that describes the correlation between human IQ and height is not relevant because the tone of the article implies that height increase causes higher IQ, as opposed to vice versa.</narrative>
+	</topic>
+   <topic id="2012031" ct_no="31">
+      <title>eurovision voting</title>
+      <phrasetitle>"eurovision" "voting"</phrasetitle>
+      <description>How does the voting work in the Eurovision song
+      contest, and why do some countries seem to vote in blocks?</description>
+      <narrative>I want to learn about the voting process for the Eurovision song contest. Is voting done by phone or by a jury? Is this process the same in all countries? Why do some countries seem to vote for their close neighbours every year?</narrative>
+   </topic>
+   <topic id="2012032" ct_no="32">
+      <title>alien android</title>
+      <phrasetitle>"alien android"</phrasetitle>
+      <description>Find information about the android in the movie Alien</description>
+      <narrative>I am interested in information about the role of the android in the movie Alien directed by Ridley Scott. What was the name of the android, and what was its role in the tragedy that unfolded on the Nostromo?</narrative>
+   </topic>
+   <topic id="2012033" ct_no="33">
+      <title>hand injury typing pain</title>
+      <phrasetitle>"hand injury" "typing pain"</phrasetitle>
+      <description>What kind of medical specialist should i consult about my hand injury</description>
+      <narrative>I have injured my hand and it is painful to type on my keyboard. I'm trying to find out what type of medical specialist i should consult about this.</narrative>
+   </topic>
+   <topic id="2012034" ct_no="34">
+      <title>exorcism for demonic possession</title>
+      <phrasetitle>"exorcism" "demonic possession"</phrasetitle>
+      <description>how can i tell if my neighbor is possessed by a demon, and how can i get help for an exorcism?</description>
+      <narrative>I have a scary neighbor and think he might be possessed by a demon. I need to confirm what the symptoms of demonic possession are, and find out what is required to conduct an exorcism.</narrative>
+   </topic>
+   <topic id="2012035" ct_no="35">
+      <title>donating to researchers in australia</title>
+      <phrasetitle>"donation" "australian research"</phrasetitle>
+      <description>i would like to donate money to excellent researchers in Australia</description>
+      <narrative>I have a lot of money and would like to donate some to researchers in Australia. But i would only like to support worthwhile research. How is "good" research measured in Australia?</narrative>
+   </topic>
+</inex-topic-file>

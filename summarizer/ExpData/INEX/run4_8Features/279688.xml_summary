@@ -1,0 +1,3 @@
+The simplest pattern in pattern matching is an explicit value or a variable.
+However, it is possible to perform some string pattern matching within the same framework that has been discussed throughout this article.
+Early programming languages with pattern matching constructs include SNOBOL from 1962, SASL from 1976, NPL from 1977, and KRC from 1981.

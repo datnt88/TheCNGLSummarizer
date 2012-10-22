@@ -1,0 +1,5 @@
+1. To install follow these instructions - http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+2. Github - www.github.com/shanedownfall/CNGLSummarizer
+3. For usage examples check the classes under main in the summarizer package.
+4. To browse the docs open docs/index.html in any browser.
+5. I have yet to document the configuration file, it should be fairly self explanatory, but I'll explain it all next week.

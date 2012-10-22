@@ -1,0 +1,54 @@
+grep is a command line text search utility originally written for Unix. The program's name derives from the Unix ed command, g/re/p which performs a similar operation.
+
+Although grep is not strictly an acronym, the letters are taken from global / regular expression / print, a series of instructions for the ed text editor. The grep command searches files or standard input globally for lines matching a given regular expression, and prints them to the program's standard output.
+
+This is an example of a common grep usage:
+
+grep apple fruitlist.txt
+
+In this case, grep prints all lines containing 'apple' from the file fruitlist.txt, regardless of word boundaries; therefore lines containing 'pineapple' or 'apples' are also printed. The grep command is case sensitive by default, so this example's output does not include lines containing 'Apple' (with a capital A) unless they also contain 'apple'.
+
+Like most Unix commands, grep accepts command line arguments to change this and many other behaviors. For example:
+
+grep -i apple fruitlist.txt
+
+This prints all lines containing 'apple' regardless of capitalization. The '-i' argument tells grep to be case insensitive, or to ignore case.
+
+To print all lines containing 'apple' as a word ('pineapple' and 'apples' will not match):
+
+grep -w apple fruitlist.txt
+
+For simplicity, these examples match a single English word, but regular expressions can be extremely sophisticated (and notoriously difficult to decipher, or write-only).
+
+For further details on grep command line arguments and regular expression capabilities/syntax, refer to the particular implementation's documentation.
+
+There are countless implementations and derivatives of grep available for many operating systems. Early variants of grep included egrep and fgrep. The former applies an extended regular expression syntax that was added to Unix after Ken Thompson's original regular expression implementation. The latter searches for any of a list of 'fixed' strings using the Aho-Corasick algorithm. These variants are embodied in most modern grep implementations as command-line switches (e.g. -E and -F respectively in GNU grep). In such combined implementations, grep may also behave differently depending on the name by which it is invoked, allowing fgrep, egrep, and grep to be links to the same program.
+
+Tcgrep is an implementation of grep that uses Perl regular expression syntax.
+
+Other commands contain the word 'grep' to indicate that they search (usually for regular expression matches). The pgrep utility, for instance, displays the processes whose names match a given regular expression.
+
+In Perl, grep is a built-in function that finds elements in a list. In functional programming languages, this higher-order function is typically named "filter" instead.
+
+The DOS, OS/2 and Microsoft Windows platforms provide the find command for simple string searches. Windows also provides the "findstr" command which approximates much of the functionality of "grep", or you can use the cygwin grep ported version.
+
+The term "grep" can be used as a verb, meaning to search – usually, to search a known set of files, as one would with the grep utility. The direct object is the set of files searched: "Kibo grepped his Usenet spool for his name." Compare with google. Sometimes[] visual grep is used as a term meaning to look through text searching for something, in the manner of the grep program.
+
+In December 2003, the Oxford English Dictionary Online added draft entries for "grep" as both a noun and a verb.
+
+A common usage is the phrase "You can't grep dead trees" - meaning computerized documentation is better than printed documentation (paper is made from dead trees) because computers can search documents by using tools such as grep.
+
+The word "grep" has also become a synonym for regular expressions themselves. Many text and word processors now employ regular expression search features, which those applications will often refer to as a "grep tool" or "grep mode" in which one creates "grep patterns", causing confusion, especially in non-Unix environments.
+
+
+
+
+
+
+
+
+
+Wikibooks'  has more about this subject:
+
+
+

@@ -1,0 +1,3 @@
+Pico is a text editor for Unix and Unix-based computer systems.
+From the Pine FAQ: "Pine's message composition editor is also available as a separate stand-alone program, called PICO. PICO is a very simple and easy-to-use text editor offering paragraph justification, cut/paste, and a spelling checker..."
+It also cannot copy text from one file to another (though it is possible to read text into the editor from a file in its working directory).

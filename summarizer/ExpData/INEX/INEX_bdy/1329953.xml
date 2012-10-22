@@ -1,0 +1,22 @@
+Notepad++ is a free source code editor for Windows. The project is hosted on SourceForge.net, from where it has been downloaded over eight million times.
+
+This project, based on the Scintilla editor component, is written in C++ with pure Win32 API calls and uses STL. The aim of Notepad++ is to offer a slim and efficient binary with a totally customizable GUI.
+
+Notepad++ supports syntax highlighting for ActionScript,ASP,Ada,ASCII art,Assembly,AutoIt (Limited support for AutoHotKey),BAT,C,C#,C++,Caml,CSS,doxygen,FORTRAN,HTML,Haskell,Java,JavaScript,KiXtart,Lisp,Lua,makefile,Matlab,Objective-C,Pascal,Perl,PHP,PostScript,Python,Ruby,Scheme,Unix Shell Script,Smalltalk,SQL,Tcl,TeX,Verilog,VHDL,VB/VBScript,andXML.
+
+Furthermore, users can define their own language by using the built-inUser Language Define System, which makes Notepad++ extendable, tohave syntax highlighting and syntax folding.
+
+Some of its features include:
+
+It has support for macros and plugins.  A user-written plug-in called TextFX, which provides many text transformation options, is included by default.
+
+Although Scintilla does not support multiline regular expression search and replace, Notepad++ does contain support for plug-ins which help mitigate this fact.
+
+Notepad++ is available only for the Microsoft Windows operating system. However, users can still get Notepad++ to work on other platforms, like Linux and Mac OS X, using software such as Wine.
+
+
+
+
+
+
+

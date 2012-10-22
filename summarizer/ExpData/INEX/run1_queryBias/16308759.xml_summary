@@ -1,0 +1,3 @@
+However, most of these applications are plain text editors, and do not support syntax highlighting, compiling, auto-complete, and the other standard features of source code editors.
+The Search &amp; Replace interface of UNA takes a different approach than most other text editors.
+Advanced mode allows a glob-like syntax, while the regular expression mode uses a Perl-like syntax taken directly from Java's built-in support for regular expressions.

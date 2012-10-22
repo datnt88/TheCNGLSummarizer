@@ -1,0 +1,20 @@
+The Puff model is a volcanic ash tracking model developed at the University of Alaska Fairbanks. It requires windfield data on a geographic grid covering the area over which ash may be dispersed. Representative ash particles are initiated at the volcano's location and then allowed to advect, diffuse, and settle within the atmosphere. The location of the particles at any time after the eruption can be viewed using the post-processing software included with the model. Output data is in netCDF format and can also be viewed with a variety of software. 
+
+Puff was initially conceived and developed by Prof. H. Tanaka as a novel method for simulating ash cloud trajectories during the eruption of Mt. Redoubt, 1989. Dr. Craig Searcy rewrote and modified the Puff code in C++, and created the initial GUI so the program could be used operationally for volcano monitoring in the early and mid 1990's. His version of the program is running at the National Weather Service (NWS), Anchorage, Alaska, although updated versions of Puff are also available at the NWS. 
+
+The Alaska Volcano Observatory (AVO) provided support for Puff through a post doctorate position (Drs. Mark Servilla and Jon Dehn) during the late 1990's to support analysis of volcanic clouds during eruptions. 
+
+In a joint program called University Partnering for Operational Support (UPOS) between the University of Alaska Fairbanks and the John Hopkins Applied Physics Laboratory (early 2000's), Puff was integrated into the U.S. Air Force Weather Agency (AFWA) volcano monitoring system by Rorik Peterson and David Tillman. UPOS support resulted in the testing of the sensitivity of Puff and the development of WebPuff, and new modules including the capability to model stratospheric eruptions, non-point source events (e.g. fires) and tracking of volcanic clouds from multiple eruptions simultaneously by Dr. Rorik Peterson. The utility of the multiple eruption capability became evident during the 13 January 2006 eruption of Augustine Volcano where the movement of six volcanic clouds across the Gulf of Alaska were tracked simultaneously.
+
+Starting in 2006, the Arctic Region Supercomputing Center (ARSC) provided support for Puff through a Post Doctorate position occupied by Dr. Peter Webley. Puff is now in use at AVO, Anchorage Volcanic Ash Advisory Center (VAAC), AFWA, and other national agencies worldwide as well as at other universities. Professor Ken Dean has been the principal scientist leading the development of Puff since Professor Tanaka returned to Japan in the early 1990's.
+
+
+
+
+
+
+
+
+
+
+

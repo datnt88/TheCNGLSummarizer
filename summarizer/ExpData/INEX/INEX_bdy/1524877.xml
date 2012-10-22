@@ -1,0 +1,46 @@
+This article provides a basic feature comparison for several text editors. Additional feature details are available from the Text editor features|Category of text editor features and from the individual products' articles. This article is not all-inclusive or necessarily up-to-date.
+
+The comparisons are made on the stable versions of software – not the upcoming versions or beta releases – and without the use of any add-ons, extensions or external programs (unless specified in footnotes).
+
+
+
+This section lists the operating systems that different editors can run on. Some editors run on additional operating systems that are not listed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To support specified character encoding, the editor must be able to load, save, view and edit text in the specific encoding and not destroy any characters. For UTF-8 and UTF-16, this requires internal 16-bit character support.
+
+If the editor can only convert the character encoding to internal (8 bit) format for editing, mark the support as partial. If some encodings are supported only in some platforms, the support is partial.
+
+ 
+
+
+
+
+
+
+

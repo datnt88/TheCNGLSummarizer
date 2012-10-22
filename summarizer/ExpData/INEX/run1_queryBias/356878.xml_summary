@@ -1,0 +1,3 @@
+Xcode is a suite of tools for developing software on Mac OS X, developed by Apple.
+The Xcode suite includes a modified version of free software GNU Compiler Collection (GCC, apple-darwin9-gcc-4.0.1 as well as apple-darwin9-gcc-4.2.1, with the former being the default), and supports C, C++, Fortran, Objective-C, Objective-C++, Java, AppleScript, Python and Ruby source code with a variety of programming models, including but not limited to Cocoa, Carbon, and Java.
+As for Xcode 3.0, Apple  WebObjects development inside Xcode 3, should be used instead.

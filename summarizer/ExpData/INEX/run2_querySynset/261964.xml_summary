@@ -1,0 +1,3 @@
+The command interpreter may be independently run in a text-only mode similarly to ed, from a command line terminal; however, running samterm allows use of a Graphical User Interface with operation on text by point-and-click, with Smalltalk-80-style pop-up context menus for simple operations like cut and paste.
+This is enabled through a model called "structural regular expressions", which recursively apply regular-expression matching to obtain other (sub)selections within a given selection.
+Sam is the preferred text editor of many eminent computer scientists; it replaced ed as Ken Thompson's favorite text editor, and he still uses it to this day.

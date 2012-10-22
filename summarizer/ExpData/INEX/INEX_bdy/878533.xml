@@ -1,0 +1,62 @@
+NoteTab is a freeware/commercial text editor for Windows. It was developed by Eric Fookes of Fookes Software, Switzerland.  The program's name refers to the fact that it was one of the earliest text-editors capable of editing several open documents on different tabs (tabbed document interface).  The first version of NoteTab, known as Mini NoteTab, was launched in 1995; version 5 was introduced in 2006, with version 5.7 released in July 2008. Prior to version 5, the latest previous version of NoteTab Light was 4.95. 
+
+NoteTab's tabbed interface can simultaneously handle an unlimited number of text files up to 2Gb in size.  It is highly customizable, with more than 90 commands available on a user-configurable toolbar.
+
+Some the more unusual features are the "pasteboard", "outline documents", the "clipbook", "clipbars", counting of words/patterns, and powerful support for search and replace. Text can be searched using regular expressions to match subpatterns and recombine the matched substrings in any order, such as reversing dates "May nn" as ("nn May").
+
+The pasteboard is one of the most powerful (and unusual) features. The user chooses a document to "use as pasteboard". Thereafter, any text copied to the Windows clipboard is appended to the pasteboard document. The resulting combined text can then be used as any other text, and searched to reuse clippings from days or weeks ago.
+
+Outline documents provide hyperlinked headings within a text document, which can be accessed directly by clicking in a side pane;  the outline documents can be read in any editor.
+
+NoteTab has its own macro language, called "Clip". The clipbook displays a library of clips (clickable macros) in a side pane.  These could be anything from pieces of boilerplate text to HTML tags to "mini-applications" complicated scripts written in  the scripting language.  A selection of clip libraries is included with the software and others can be downloaded from the Web.
+
+Clipbars are user-defined buttons that appear on a toolbar, for example to execute custom scripts and wizards.
+
+The search and replace features of NoteTab are much more powerful than most text editors, and include regular expressions and a hierarchical search/replace of text in folders on a disk drive. Since version 5.0, NoteTab uses Perl Compatible regular expressions powered by PCRE.
+
+NoteTab integrates with such products as HTML Tidy, TopStyle, CSE HTML Validator and WordWeb.
+
+The software exists in three forms: 
+
+
+
+There are 30-day trial versions available for Standard and Pro.
+
+NoteTab Light is completely free for all users, with no time-limit, nag screen, appeals for donations, etc.  It lacks some of the features of NoteTab Standard.  For example, you can read Outline and EBCDIC files but not write them; the disk search facility is present but not disk replace; and the clipbars, customizable menu shortcuts, spell checker and thesaurus are not available.  (These "commercial features" can be "turned on" once from within the software, and be used for up to 30 days.)  However, these features are hardly indispensable for most purposes and NoteTab Light works perfectly well as a fully-fledged editor.  For this reason, the author of NoteTab rejects the description of NoteTab Light as crippleware, and it is true that there are many less full-featured paid-for editors on the market.
+
+NoteTab Standard includes, among other features:
+
+
+
+NoteTab Pro adds, among others, multi-level undo/redo, syntax highlighting, show/hide nonprinting characters, wrap to column, and support for fixed-pitch OEM fonts, as well as greater speed.
+
+NoteTab does not currently include support for Unicode documents. NoteTab only has syntax highlighting for HTML documents and NoteTab clip/scripts; and not for other languages.
+
+
+
+See also: Regular expressionThe NoteTab text editor, after NoteTab Light 5.4, allows matching text with regular expressions, such as for search or search-and-replace.  For example, to remove double-brackets around each year (of the form "19xx"), the expressions to use could be a match for "\[\[(19..)\]\]" replaced by the expression "$1" which replaces the matching text with the first (and only) subpattern defined in parentheses (hence just the 4-digit year "19xx").
+
+The general syntax of NoteTab regular expressions uses the same rules as Perl Compatible syntax, as follows:
+
+
+
+
+
+The following are some examples:
+
+
+
+
+
+
+
+
+
+
+
+The whole line of text is referred to as a string, the text to match is called the regular expression, and each portion in parentheses is termed a subpattern.
+
+Note that each subpattern reference ($1, $2, $3, etc.) must have a corresponding set of parentheses "(  )" in the search expression. If there is only one set of parentheses, then $2 will show as literally dollar-sign numeral two ("$2") in the replacement string.
+
+
+

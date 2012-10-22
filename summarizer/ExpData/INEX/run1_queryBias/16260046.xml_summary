@@ -1,0 +1,3 @@
+ne (for "nice editor") is a console text editor for POSIX computer operating systems such as Linux or Mac OS X. It uses termcap library, or a library such as ncurses which provides that interface.
+It uses common keyboard shortcuts such as Ctrl-Q to quit and Ctrl-O to open a file instead of the multi-mode command structure of vi. It has full support for UTF-8, regular expressions and is binary clean.
+ne was originally developed on the Amiga and inspired by that platform's TurboText editor, which was written by Martin Taillefer.

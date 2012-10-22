@@ -1,0 +1,16 @@
+Pico is a text editor for Unix and Unix-based computer systems. It is integrated with the Pine e-mail client, which was designed by the Office of Computing and Communications at the University of Washington.
+
+From the Pine FAQ: "Pine's message composition editor is also available as a separate stand-alone program, called PICO. PICO is a very simple and easy-to-use text editor offering paragraph justification, cut/paste, and a spelling checker..."
+
+Pico does not support working with several files simultaneously and cannot perform a find and replace across multiple files. It also cannot copy text from one file to another (though it is possible to read text into the editor from a file in its working directory). Pico also supports search and replace operations.
+
+Pico's interface is in many ways very similar to that found in Windows editors, such as Notepad.
+
+By comparison, some popular Unix text editors such as vi and Emacs provide a significantly greater number of features than Pico, including regular expression search and replace and working with multiple files at the same time. However, they are generally harder to learn how to use.
+
+The GNU project has a clone of Pico called nano. Nano was developed because Pico's license is not a free software license, since distribution of a modified version of the code is expressly forbidden. Nano attempts to mimic pico by default to replicate the environment users are used to. However nano can be configured to make it more useful. Nano can be configured to offer mouse support, auto indentation, regular expression searches and even syntax highlighting.
+
+
+
+
+

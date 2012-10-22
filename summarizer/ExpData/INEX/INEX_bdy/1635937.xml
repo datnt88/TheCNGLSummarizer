@@ -1,0 +1,10 @@
+TextWrangler is a popular text editor for Mac OS X from Bare Bones Software. It was originally a commercial product, but (beginning with version 2.0) has become the freeware alternative to their flagship editor, BBEdit, and the successor to their previous freeware editor, BBEdit Lite.
+
+Like BBEdit, TextWrangler is not a word processor and so lacks formatting and style options — it is limited to editing and manipulation of plain text, but while this limits desktop publications, it allows for much greater power and flexibility editing text. TextWrangler has features common to most programming text editors, such as syntax highlighting for various programming languages, a find and replace function, spell check, and file comparison. But TextWrangler also includes extensive scripting support using AppleScript, Python, Perl, Shell scripts, and BBEdit's native Text Factories. TextWrangler's find and replace allows the use of regular expressions, Python, Perl, and shell scripts can be run directly in the program. TextWrangler also provides numerous options for reformatting text.
+
+As with some other Mac editors, TextWrangler can read and save files in various encodings, including Unicode (various encodings), ASCII, Latin-1 and Latin-9.
+
+TextWrangler is intended for use by programmers, web designers, and others who spend time reading and writing source code. 
+
+
+

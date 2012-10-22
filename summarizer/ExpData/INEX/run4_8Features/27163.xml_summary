@@ -1,0 +1,3 @@
+It reads input files line by line (sequentially), applying the operation which has been specified via the command line (or a sed script), and then outputs the line.
+The sed script below will turn it into:This is my cat my cat's name is bettyThis is my dog my dog's name is frank
+Here's the script:sed 'N;s/\n / /;P;D;'

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+	<word>
+		<abbreviations>src/main/resources/data/ENabbreviations.txt</abbreviations>
+	</word>
+	<sentence>
+		<badStart>src/main/resources/data/bad_sent_start.txt</badStart>
+		<possibleEnd>src/main/resources/data/poss_sent_end.txt</possibleEnd>
+		<badEnd>src/main/resources/data/bad_sent_end.txt</badEnd>
+	</sentence>
+</config>

@@ -1,0 +1,50 @@
+
+
+UNA is a real-time collaborative development environment developed by N-BRAIN, Inc and targeted at software engineers. UNA combines a real-time collaborative editor, collaborative whiteboard, chat system, collaborative note taking, and standard features of source code editors.
+
+Several applications exist that provide support for real-time collaborative text editing. However, most of these applications are plain text editors, and do not support syntax highlighting, compiling, auto-complete, and the other standard features of source code editors. Moreover, all of these editors make solo editing the default mode of operation: if a user wants to collaborate on a document, the user must share it with one more more target users.
+
+UNA was designed as a real-time collaborative development environment. Consequently, UNA supports all the standard features of programmer editors, including syntax highlighting, regular expression search and replace, file templates, source snippets, auto-complete, integration of external tools, object hierarchy views, and file structure views.
+
+UNA was designed so that collaboration is the default mode of operation. All users who have opened a particular projectspace see the same set of opened files, the same chat history, the same notes, the same whiteboard, and the same set of users who are currently logged into the projectspace. No action is required to collaborate on files -- users can edit any file freely, and see the changes of other users as they occur.
+
+The centerpiece of UNA is a real-time collaborative editor. The underlying algorithm used by the editor has the following properties:
+
+The advantage of a broadcast-based merging algorithm is that it achieves theoretical maximum communication efficiency. Point-to-point algorithms must arrange users into a tree topology, requiring that some clients be fronts for other clients. However, broadcast-based algorithms allow all clients to directly send their edits to all other clients, with no intermediaries. Each client then figures out how to merge the edits of other clients on its own. This minimizes edit latency, which is important when clients are widely distributed.
+
+UNA is the only known example of a real-time collaborative editor that uses a broadcast-based algorithm for server-less, lock-free editing.
+
+In addition to a real-time collaborative editor, UNA includes the following collaborative features:
+
+UNA features syntax highlighting for more than 20 languages. Users can add support for additional languages by creating XML syntax definition files.
+
+An important feature of UNA is the Tools interface, which allows the integration of external tools, such as compilers, testing frameworks, and debuggers.
+
+The Tools interface allows users to specify a number of properties for each tool:
+
+
+
+There are two kinds of tools: My Tools, and Team Tools. My Tools are accessible only to the developer who created them. Team Tools are accessible to every member of the team (i.e. everyone who is a member of the projectspace). The executable for the tool can be located inside the projectspace itself, in which case it is possible for a user to join a projectspace, and run all the team tools, without first installing or configuring any software.
+
+The Search &amp; Replace interface of UNA takes a different approach than most other text editors. Instead of having 3-6 different search dialogs, each tailored for a different purpose, UNA uses a single search &amp; replace interface to perform all kinds of searching and replacing. Because some options will be used more than others, UNA allows users to save searches. Saved searches appear on the Search menu, and can also be activated by keystroke.
+
+The UNA search interface is non-modal, so users can switch from performing search and replace to editing the document or using any other part of UNA.
+
+Searches can be performed in one of three modes: literal, advanced, or regular expression. Advanced mode allows a glob-like syntax, while the regular expression mode uses a Perl-like syntax taken directly from Java's built-in support for regular expressions.
+
+Searches can be limited to the active file, all opened files, or all files in the projectspace. Optionally, a mask may be used to limit searches to files with a certain file extension.
+
+A notable feature of Search &amp; Replace is that file names can be included in the search. When this option is selected, replacing "foo.txt" with "bar.txt" would not only replace content inside files, but would also rename any files called "foo.txt" to "bar.txt".
+
+As with Tools, there are two kinds of saved search queries: My Searches, and Team Searches. My Searches can be seen and used only by the user who created them, while Team Searches can be used by the whole team.
+
+Source snippets allow a user to create templates for commonly used constructs of code, and activate them with a keystroke. They are analogous to snippets in TextMate and live templates in IntelliJ Idea.
+
+UNA has built-in support for version control systems, such as Subversion, Perforce, and CVS. Creating, renaming and deleting files and directories automatically schedules the corresponding operations in the version control system. This feature allows users to interact with the projectspace as an ordinary file system, instead of interacting in the constrained manner that most version control systems require.
+
+UNA comes in three editions, all of which may be used for commercial or non-commercial software development.
+
+
+
+
+

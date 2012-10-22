@@ -1,0 +1,3 @@
+Regular expressions are used by many text editors, utilities, and programming languages to search and manipulate text based on patterns.
+Several utilities provided by Unix distributions—including the editor ed and the filter grep—were the first to popularize the concept of regular expressions.
+He later added this capability to the Unix editor ed, which eventually led to the popular search tool grep's use of regular expressions ("grep" is a word derived from the command for regular expression searching in the ed editor: g/re/p where re stands for regular expression).

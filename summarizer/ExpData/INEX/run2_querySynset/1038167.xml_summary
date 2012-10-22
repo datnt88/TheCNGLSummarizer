@@ -1,0 +1,3 @@
+vile is a text editor that attempts to combine the best aspects of the popular Emacs and vi editors.
+These editors are traditionally located on opposing sides of the editor wars, as users of Emacs and vi tend to have strong sentiments against the editor they do not use; however, vile at least attempts to reconcile these positions.
+vile is an acronym which stands for "VI Like Emacs".  vile is featured in Chapter 12 of the O'Reilly book "Learning the vi Editor".

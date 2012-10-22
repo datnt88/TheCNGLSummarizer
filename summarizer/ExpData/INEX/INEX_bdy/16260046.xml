@@ -1,0 +1,10 @@
+Not to be confused with Norton Editor, see Peter Norton Computing
+
+
+
+ne (for "nice editor") is a console text editor for POSIX computer operating systems such as Linux or Mac OS X. It uses termcap library, or a library such as ncurses which provides that interface. There is also a Cygwin version. It was developed by Sebastiano Vigna of the University of Milan, Italy
+
+ne is intended to provide an alternative to vi that will be more familiar to modern users and still be portable across all POSIX-compliant operating systems. It uses common keyboard shortcuts such as Ctrl-Q to quit and Ctrl-O to open a file instead of the multi-mode command structure of vi. It has full support for UTF-8, regular expressions and is binary clean.
+
+ne was originally developed on the Amiga and inspired by that platform's TurboText editor, which was written by Martin Taillefer. Development then moved to Linux. Todd Lewis joined the development team, donating code he wrote to add features required at the University of North Carolina at Chapel Hill.
+

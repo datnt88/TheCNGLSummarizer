@@ -1,0 +1,3 @@
+Places where PowerVR technology and its various iterations have been used are:
+Renesas SH73180 (SH-Mobile3), Renesas SH73182 (SH-Mobile3+), Renesas SH73230 (SH-Mobile3A), Renesas SH73450 (SH-Mobile3A+) -- MBX Lite + VGP Lite + SH4AL-DSP(SH-X)
+Samsung S5L8900 -- MBX Lite + VGP Lite + FPU (VFP11™) + ARM1176

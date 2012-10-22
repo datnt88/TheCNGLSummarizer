@@ -1,0 +1,78 @@
+For other uses, see Vi (disambiguation).
+
+vi is a screen-oriented text editor written by Bill Joy in 1976 for an early BSD release.
+
+The name vi is derived from the shortest unambiguous abbreviation for the command visual in ex; the command in question switches the line editor ex to visual mode. The name vi is pronounced , or /vaɪ/.
+
+Current releases of vi are free and open source software, usually released under permissive free software licenses such as the BSD License.
+
+vi is a modal editor: it operates in either insert mode (where typed text becomes part of the document) or normal mode (where keystrokes are interpreted as commands that control the edit session).  Typing 'i' while in normal mode switches the editor to insert mode.  Typing 'i' again at this point places an 'i' character in the document.  How the 'i' keystroke is processed depends on the editor mode.  (From insert mode, pressing the escape key switches the editor back to normal mode.)
+
+vi can process compound commands that embed text for insertion in the document.  For example, the command:
+
+20iHello world! ' '
+
+would insert 20 lines in the document with the text 'Hello world!'.  Rather than grapple with the notion of two mode switches while executing this command, some users view vi as a stateful filter.  After processing the third character, vi changes state and begins processing input as text to be added to the file.  On processing the escape, vi returns to the state in which it is ready to receive a new command.
+
+Whether viewed as modal or stateful, vi's processing of the same keystroke in different ways depending on the history of the edit session distinguishes it from editors which are generally considered non-modal.
+
+A perceived advantage of a modal editor is that the use of keyboard chords (multiple keys pressed simultaneously, typically a modifier plus a letter key) is reduced or eliminated.  Instead, in normal mode, single keystrokes serve as commands.  This results in the user's hands not having to take up awkward positions, which some find results in faster work. 
+
+
+
+Bill Joy wrote vi at the University of California, Berkeley, on a Lear-Siegler ADM3A terminal. On this terminal, the Escape key was on the left, where the Tab key is now on the widely-used IBM PC keyboard, thus enabling users to very efficiently switch modes. Also, the keys h,j,k,l'' had arrows, explaining the usage of these keys for moving around.  The ADM3A had no other keys that corresponded to arrows.
+
+vi became the de facto standard Unix editor and a nearly undisputed hacker favorite outside of MIT until the rise of Emacs after about 1984. As of 2008 either vi or one of its clones can still be found on nearly all installations of Unix. The Single UNIX Specification specifies vi, so any system conforming to the Single UNIX Specification will have vi.
+
+vi is still widely used by users of Unix variants. About half the respondents in a 1991 USENET poll preferred vi. It starts up faster than the bulkier versions of Emacs and uses less memory. Consequently, even some Emacs fans will resort to it as a mail editor and for small editing jobs.  In 1999, Tim O'Reilly, founder of the eponymous computer book publisher, stated that his company sold more copies of its vi book than its emacs book.
+
+Upon start-up, vi starts in normal mode (unless instructed otherwise). Typing the letter 'i' (without quotes) enters insert mode. Any text typed thence gets added to the document, until the escape key is pressed, at which point the insert mode is exited and vi switches to normal mode. (There are few more commands that switch the editor into insert mode, but they differ only in where the new text will go - before the cursor, after the cursor, above current line, below current line, etc.).
+
+There are two main classes of commands: cursor movements and text modification. Vi is the fullscreen counterpart to ex, and cursor movement is a key part of the design.
+
+These commands move the cursor, either relative to its current position, or to an absolute position.
+
+Relative motions can be prefixed with a count, to tell vi to repeat the motion. These are relative motion commands: {|Move to end of current or previous paragraph, respectively. |- valign="top"|) (|Move to end of current or previous sentence, respectively. |}
+
+Absolute motions do not accept a count except for special cases where it acts as a line or column number.   These are absolute motion commands:
+
+Many of the text modification commands form a special category known as operators.  They can be prefixed with a count (to repeat the operator), and are suffixed with a motion command.  The text between the current position and the final position (after the motion) is called a region.
+
+These are examples of operators:
+
+In some instances, if the motion command repeats the operator character (as in 'dd'), the region is a whole line. Thus "dd" deletes the current line, and "ccnew" replaces the entire current line with the text 'new'.  Prefixing it with a count repeats (or makes it apply to more than one), e.g., "10dd" deletes 10 lines.
+
+A few commands move the cursor only within the current line.  Like operators, they accept a repeat count:
+
+Other commands do not fall neatly into a category:
+
+Support for regular expressions (or text patterns) is an important feature of vi. These can be used extensively in search, substitution and global search and replace commands.
+
+All of the ex commands can be used in vi by typing ":" to get a prompt, and entering the command.  Exit temporarily (or permanently) from visual mode to ex by "Q", return to visual mode by ":vi".
+
+Several of vi's default behaviors can be altered using options. These take the form ":set option" or ":set nooption" and so on. Example: "set ignorecase" causes all searches to be case-insensitive.
+
+
+
+Where applicable, these commands take a line number or a range of line numbers. E.g., "10,25w newfile" will write lines 10 through 25 (inclusive) into the file newfile; "$r newfile" will read the contents of file newfile after the last line of the current document ('$' stands for the last line).
+
+A frequently used command sequence can be mapped to a new command-letter. The sequence could even include any text to be inserted. E.g.,:
+
+map * iAuthor: John Bullcauses the '*' character to be a command that inserts "Author: John Bull" at the cursor position.
+
+An abbreviation is like a mapping, but during insert mode. Example:
+
+abbr US United StatesThis will insert "United States" whenever the word "US" is typed when in insert mode.
+
+
+
+
+
+
+
+
+
+
+
+
+

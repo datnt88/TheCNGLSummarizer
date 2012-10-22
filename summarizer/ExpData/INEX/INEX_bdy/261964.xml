@@ -1,0 +1,18 @@
+Sam is a multi-file text editor originally designed at Bell Labs by Rob Pike (with the help of Ken Thompson and other Unix developers) in the early 1980s for the Blit windowing terminal running on Unix, and later ported to other systems.  It follows a classical modular Unix aesthetic; it is internally simple, its power leveraged by the composability of a small command language and extensibility through shell integration.
+
+Sam is designed as two synchronous programs: a command interpreter with a language modeled after the UNIX editor, ed, linked to a mouse-oriented bitmap windowing interface called "samterm".  The command interpreter may be independently run in a text-only mode similarly to ed, from a command line terminal; however, running samterm allows use of a Graphical User Interface with operation on text by point-and-click, with Smalltalk-80-style pop-up context menus for simple operations like cut and paste.  Samterm provides, in addition to file windows, a persistent "command window" which accepts instructions from the command language; previous commands can be edited and resubmitted (a feature inherited from the DMD 5620 terminal interface).  Most common editing operations are very quick and natural with the point-and-click interface.  The two-process design also allows sam to access files on networked host systems through remote execution of the file-access process.
+
+While sam's syntax is formally similar to ed's, ed's commands are line-oriented; sam's are selection-oriented, where the selection may be "swept" out by dragging the mouse cursor over a region of text, or by searching for a pattern match.  Multi-line and sub-line patterns are as naturally handled by the command language as whole-line patterns are by ed's.  This is enabled through a model called "structural regular expressions", which recursively apply regular-expression matching to obtain other (sub)selections within a given selection.  In this way, sam's command set can be applied to substrings that are identified by arbitrarily complex context.
+
+Sam also allows editing commands to be applied simultaneously to multiple files, which are selected by pattern matching on their names.  A sequence of commands may be applied as a unit to each selection.  Sam was also one of the first text editors to support "infinite" undo to revert any number of editing errors.
+
+Sam is the preferred text editor of many eminent computer scientists; it replaced ed as Ken Thompson's favorite text editor, and he still uses it to this day.  Sam is the text editor used by Bjarne Stroustrup  and Brian Kernighan .  Others, like Dennis Ritchie, have moved on to use acme instead. Sam vs. acme debates occur in the Plan 9 community (both are shipped with Plan 9) although both stem from a very similar aesthetic bias.  (Both were written by Rob Pike.)
+
+The latest incarnation of sam was written as part of the Plan 9 operating system, but there are Microsoft Windows and X Window System ports available.
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+Sequence (or specifically text string) patterns are often described using regular expressions (i.e. backtracking) and matched using respective algorithms.
+For simplicity and efficiency reasons, these tree patterns lack some features that are available in regular expressions.
+At Bell Labs, Ken Thompson extended the seeking and replacing features of the QED editor to accept regular expressions.

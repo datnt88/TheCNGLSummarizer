@@ -1,0 +1,3 @@
+The technology is a simple extension of the ISO 14443 proximity-card standard (contactless card, RFID) that combines the interface of a smartcard and a reader into a single device.
+NFC can also work when one of the devices is not powered by a battery (e.g. on a phone that may be turned off, a contactless smart credit card, a smart poster, etc.).
+Because NFC devices are usually also implementing ISO 14443 functionality, the relay attack described are also feasible on NFC. For this attack the adversary has to forward the request of the reader to the victim and relay back its answer to the reader in real time, in order to carry out a task pretending to be the owner of the victim’s smart card.

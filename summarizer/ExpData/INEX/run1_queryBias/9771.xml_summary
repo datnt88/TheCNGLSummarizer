@@ -1,0 +1,3 @@
+ed is the standard text editor on the Unix operating system.  ed was originally written by Ken Thompson and contains one of the first implementations of regular expressions.
+aed is the standard Unix text editor.
+2i . %led is the standard Unix text editor.$$This is line number two.$3s/two/three/,led is the standard Unix text editor.$$This is line number three.$w text65q

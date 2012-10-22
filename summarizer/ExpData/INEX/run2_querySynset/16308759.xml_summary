@@ -1,0 +1,3 @@
+Consequently, UNA supports all the standard features of programmer editors, including syntax highlighting, regular expression search and replace, file templates, source snippets, auto-complete, integration of external tools, object hierarchy views, and file structure views.
+The Search &amp; Replace interface of UNA takes a different approach than most other text editors.
+Advanced mode allows a glob-like syntax, while the regular expression mode uses a Perl-like syntax taken directly from Java's built-in support for regular expressions.

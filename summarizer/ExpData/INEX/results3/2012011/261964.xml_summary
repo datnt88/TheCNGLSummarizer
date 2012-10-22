@@ -1,0 +1,3 @@
+Sam is a multi-file text editor originally designed at Bell Labs by Rob Pike (with the help of Ken Thompson and other Unix developers) in the early 1980s for the Blit windowing terminal running on Unix, and later ported to other systems.
+Sam is the preferred text editor of many eminent computer scientists; it replaced ed as Ken Thompson's favorite text editor, and he still uses it to this day.
+Sam is the text editor used by Bjarne Stroustrup  and Brian Kernighan .

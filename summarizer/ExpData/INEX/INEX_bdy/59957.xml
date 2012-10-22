@@ -1,0 +1,134 @@
+
+
+A smart card, chip card, or integrated circuit card (ICC), is any pocket-sized card with embedded integrated circuits which can process data. This implies that it can receive input which is processed — by way of the ICC applications — and delivered as an output.  There are two broad categories of ICCs. Memory cards contain only non-volatile memory storage components, and perhaps some specific security logic. Microprocessor cards contain volatile memory and microprocessor components. The card is made of plastic, generally PVC, but sometimes ABS. The card may embed a hologram to avoid counterfeiting. Using smartcards also is a form of strong security authentication for single sign-on within large companies and organizations.
+
+A "smart card" is also characterized as follows:
+
+Smart cards provide a means of effecting business transactions in a flexible, secure, standard way with minimal human intervention.
+
+Smart card can provide strong authentication for single sign-on or enterprise single sign-on to computers, laptops, data with encryption, enterprise resource planning platforms such as SAP, etc.
+
+The automated chip card was invented by German rocket scientist Helmut Gröttrup and his colleague Jürgen Dethloff in 1968; the patent was finally approved in 1982. The first mass use of the cards was for payment in French pay phones, starting in 1983 (Télécarte).
+
+Roland Moreno actually patented his first concept of the memory card in 1974. In 1977, Michel Ugon from Honeywell Bull invented the first microprocessor smart card. In 1978, Bull patented the SPOM (Self Programmable One-chip Microcomputer) that defines the necessary architecture to auto-program the chip. Three years later, the very first "CP8" based on this patent was produced by Motorola. At that time, Bull had 1200 patents related to smart cards. In 2001, Bull sold its CP8 Division together all its patents to Schlumberger. Schlumberger combined its smart card department and CP8 and created Axalto. In 2006, Axalto and Gemplus, at the time the world's no.2 and no.1 smart card manufacturers, merged and became Gemalto.
+
+
+
+The second use was with the integration of microchips into all French debit cards (Carte Bleue) completed in 1992. When paying in France with a Carte Bleue, one inserts the card into the merchant's terminal, then types the PIN, before the transaction is accepted. Only very limited transactions (such as paying small autoroute tolls) are accepted without PIN.
+
+Smart-card-based electronic purse systems (in which value is stored on the card chip, not in an externally recorded account, so that machines accepting the card need no network connectivity) were tried throughout Europe from the mid-1990s, most notably in Germany (Geldkarte), Austria (Quick), Belgium (Proton), France (Moneo), the Netherlands (Chipknip and Chipper), Switzerland ("Cash"), Norway ("Mondex"), Sweden ("Cash"), Finland ("Avant"), UK ("Mondex"), Denmark ("Danmønt") and Portugal ("Porta-moedas Multibanco"). 
+
+The major boom in smart card use came in the 1990s, with the introduction of the smart-card-based SIM used in GSM mobile phone equipment in Europe. With the ubiquity of mobile phones in Europe, smart cards have become very common.
+
+The international payment brands MasterCard, Visa, and Europay agreed in 1993 to work together to develop the specifications for the use of smart cards in payment cards used as either a debit or a credit card.  The first version of the EMV system was released in 1994.  In 1998 a stable release of the specifications was available.  EMVco, the company responsible for the long-term maintenance of the system, upgraded the specification in 2000 and most recently in 2004. The goal of EMVco, is to assure the various financial institutions and retailers that the specifications retain backward compatibility with the 1998 version.  
+
+With the exception of countries such as the United States of America there has been significant progress in the deployment of EMV-compliant point of sale equipment and the issuance of debit and or credit cards adhering the EMV specifications.  Typically, a country's national payment association, in coordination with MasterCard International, Visa International, American Express and JCB, develop detailed implementation plans assuring a coordinated effort by the various stakeholders involved. 
+
+The backers of EMV claim it is a paradigm shift in the way one looks at payment systems. In countries where banks do not currently offer a single card capable of supporting multiple account types, there may be merit to this statement. Though some banks in these countries are considering issuing one card that will serve as both a debit card and as a credit card, the business justification for this is still quite elusive.  Within EMV a concept called Application Selection defines how the consumer selects which means of payment to employ for that purchase at the point of sale.
+
+For the banks interested in introducing smart cards the only quantifiable benefit is the ability to forecast a significant reduction in fraud, in particular counterfeit, lost and stolen. The current level of fraud a country is experiencing, coupled with whether that country's laws assign the risk of fraud to the consumer or the bank, determines if there is a business case for the financial institutions. Some critics claim that the savings are far less than the cost of implementing EMV, and thus many believe that the USA payments industry will opt to wait out the current EMV life cycle in order to implement new, contactless technology. 
+
+Smart cards with contactless interfaces are becoming increasingly popular for payment and ticketing applications such as  mass transit. Visa and MasterCard have agreed to an easy-to-implement version currently being deployed (2004-2006) in the USA.  Across the globe, contactless fare collection systems are being implemented to drive efficiencies in public transit.  The various standards emerging are local in focus and are not compatible, though the MIFARE Standard card from Philips has a considerable market share in the US and Europe. 
+
+Smart cards are also being introduced in personal identification and entitlement schemes at regional, national, and international levels. Citizen cards, drivers’ licenses, and patient card schemes are becoming more prevalent; For example in Malaysia, the compulsory national ID scheme MyKad includes 8 different applications and is rolled out for 18 million users. Contactless smart cards are being integrated into ICAO biometric passports to enhance security for international travel.
+
+Contact smart cards have a contact area, comprising several gold-plated contact pads, that is about 1cm square.  When inserted into a reader, the chip makes contact with electrical connectors that can read information from the chip and write information back.
+
+The ISO/IEC 7816 and ISO/IEC 7810 series of standards define:
+
+The cards do not contain batteries; energy is supplied by the card reader.
+
+
+
+VCC : Power supply input
+
+RST : Either used itself (reset signal supplied from the interface device) or in combination with an internal reset control circuit (optional use by the card). If internal reset is implemented, the voltage supply on Vcc is mandatory.
+
+CLK : Clocking or timing signal (optional use by the card).
+
+GND : Ground (reference voltage).
+
+VPP : Programming voltage input (deprecated / optional use by the card).
+
+I/O : Input or Output for serial data to the integrated circuit inside the card.
+
+NOTE - The use of the two remaining contacts will be defined in the appropriate application standards. 
+
+See also: Card_reader#Smart_card_readers
+
+Contact smart card readers are used as a communications medium between the smart card and a host, e.g. a computer, a point of sale terminal, or a mobile telephone.
+
+Since the chips in the financial cards are the same as those used for mobile phone Subscriber Identity Module (SIM) cards, just programmed differently and embedded in a different shaped piece of PVC, the chip manufacturers are building to the more demanding GSM/3G standards. So, for instance, although EMV allows a chip card to draw 50 mA from its terminal, cards are normally well inside the telephone industry's 6mA limit. This is allowing financial card terminals to become smaller and cheaper, and moves are afoot to equip every home PC with a card reader and software to make internet shopping more secure.
+
+See also: List of smart cardsA second type is the contactless smart card, in which the chip communicates with the card reader through RFID induction technology (at data rates of 106 to 848 kbit/s).  These cards require only close proximity to an antenna to complete transaction. They are often used when transactions must be processed quickly or hands-free, such as on mass transit systems, where smart cards can be used without even removing them from a wallet.
+
+The standard for contactless smart card communications is ISO/IEC 14443, dated 2001. It defines two types of contactless cards ("A" and "B"), allows for communications at distances up to 10 cm. There had been proposals for ISO 14443 types C, D, E and F that have been rejected by the International Organization for Standardization. An alternative standard for contactless smart cards is ISO 15693, which allows communications at distances up to 50 cm.
+
+Example of widely used contactless smart cards are Hong Kong's Octopus card, and Japan Rail's Suica Card; which predate the ISO/IEC 14443 standard. The following tables list smart cards used for public transportation and other electronic purse applications.
+
+
+
+A related contactless technology is RFID (radio frequency identification). In certain cases, it can be used for applications similar to those of contactless smart cards, such as for electronic toll collection.  RFID devices usually do not include writeable memory or microcontroller processing capability as contactless smart cards often do.
+
+There are dual-interface cards that implement contactless and contact interfaces on a single card with some shared storage and processing.  An example is Porto's multi-application transport card, called Andante, that uses a chip in contact and contactless (ISO 14443B).
+
+Like smart cards with contacts, contactless cards do not have a battery.  Instead, they use a built-in inductor to capture some of the incident radio-frequency interrogation signal, rectify it, and use it to power the card's electronics.
+
+
+
+These are the best known payment cards (classical plastic card):
+
+Roll-outs started in 2005 in USA (Asia and Europe - 2006). Contactless (non PIN) transactions cover a payment range of ~$5-50. There is an ISO 14443 PayPass implementation. All PayPass implementations may be separated on EMV and non EMV.
+
+Non-EMV cards work like magnetic stripe cards. This is a typical card technology in the USA (PayPass Magstripe and VISA MSD). The cards do not control amount remaining.  All payment passes without a PIN and usually in off-line mode. The security level of such a transaction is no greater than with classical magnetic stripe card transaction. 
+
+EMV cards have two interfaces (contact and contactless) and they work as a normal EMV card via contact interface. Via contactless interface they work almost like an EMV (card command sequence adopted on contactless features as low power and short transaction time).
+
+Cryptographic smart cards are often used for single sign-on. Most advanced smart cards are equipped with specialized cryptographic hardware that let you use algorithms such as RSA and DSA on board. Today's cryptographic smart cards are also able to generate key pairs on board, to avoid the risk of having more than one copy of the key (since by design there usually isn't a way to extract private keys from a smart card).
+
+Such smart cards are mainly used for digital signature and secure identification, (see applications section). 
+
+The most common way to access cryptographic smart card functions on a computer is to use a PKCS#11 library provided by the vendor. On Microsoft Windows platforms the CSP API is also adopted.
+
+The most widely used cryptographic algorithms in smart cards (excluding the GSM so-called "crypto algorithm") are 3DES (Triple DES) and RSA. The key set is usually loaded (DES) or generated (RSA) on the card at the personalization stage.
+
+The Mozilla Firefox web browser can use smart cards to store certificates for use in secure web browsing.
+
+Some disk encryption systems, such as FreeOTFE, can use smart cards to securely hold encryption keys, and also to add another layer of encryption to critical parts of the secured disk.
+
+Smartcards are also used for single sign-on to log on to computers
+
+The applications of smart cards include their use as credit or ATM cards, in a fuel card, SIMs for mobile phones, authorization cards for pay television, pre-pay utilities in household, high-security identification and access-control cards, and public transport and public phone payment cards.
+
+Smart cards may also be used as electronic wallets. The smart card chip can be loaded with funds which can be spent in parking meters and vending machines or at various merchants. Cryptographic protocols protect the exchange of money between the smart card and the accepting machine. There is no connection to the issuing bank necessary, so the holder of the card can use it regardless of him being the owner. Examples are Proton, Geldkarte, Chipknip and Mon€o. The German Geldkarte is also used to validate the customers age at vending machines for cigarettes.
+
+A quickly growing application is in digital identification cards. In this application, the cards are used for authentication of identity. The most common example is in conjunction with a PKI. The smart card will store an encrypted digital certificate issued from the PKI along with any other relevant or needed information about the card holder. Examples include the U.S. Department of Defense (DoD) Common Access Card (CAC), and the use of various smart cards by many governments as identification cards for their citizens. When combined with biometrics, smart cards can provide two- or three-factor authentication. Smart cards are not always a privacy-enhancing technology, for the subject carries possibly incriminating information about him all the time. By employing contactless smart cards, that can be read without having to remove the card from the wallet or even the garment it is in, one can add even more authentication value to the human carrier of the cards.
+
+The first smart card driver's license system in the world was issued in 1995 in Mendoza, a province of Argentina. Mendoza has a high level of road accidents, driving offenses, and a poor record of recovering outstanding fines. The smart licenses keep an up-to-date record of driving offenses and unpaid fines. They also store personal information, license type and number, and a photograph of the holder. Emergency medical information like blood type, allergies, and biometrics (fingerprints) can be stored on the chip if the cardholder wishes. The Argentina government anticipates that this new system will help to recover more than $10 million per year in fines.
+
+Gujarat was the first state in India to introduce the smart card license system in 1999. To date the Gujarat Government has issued 5 million smart card driving licenses to its people. This card is basically a plastic card having ISO/IEC 7810 certification and integrated circuit, capable of storing and verifying information according to its programming.
+
+Smart cards have been advertised as suitable for personal identification tasks, because they are engineered to be tamper resistant. The embedded chip of a smart card usually implements some cryptographic algorithm. Information about the inner workings of this algorithm can be obtained if the precise time and electrical current required for certain encryption or decryption operations is measured. A number of research projects have now demonstrated the feasibility of this line of attack. Countermeasures have been proposed.
+
+By the start of 2009 the entire population of Spain and Belgium will have an eID card, that is issued by the Spanish and Belgian Governments and that is used to identify an individual. These cards contain 2 certificates: one for authentication and one for signature. This signature is legally adopted. More and more services in these countries are using the eID card as an authorization token. More information on http://www.dnielectronico.es/and http://eid.belgium.be/
+
+Smart cards are widely used to protect digital television streams. See television encryption for an overview, and VideoGuard for a specific example of how smart card security worked (and was cracked).
+
+The Malaysian government uses smart card technology in identity cards carried by all Malaysian citizens and resident non-citizens. The personal information inside the smart card (called MYKAD) can be read using special APDU commands.MYKAD SDK
+
+Another problem of smart cards may be the failure rate. The plastic card in which the chip is embedded is fairly flexible, and the larger the chip, the higher the probability of breaking. Smart cards are often carried in wallets or pockets — a fairly harsh environment for a chip. However, for large banking systems, the failure-management cost can be more than offset by the fraud reduction. A card enclosure might be a good idea.
+
+Using a smart card for mass transit presents a risk for privacy, because such a system enables the mass transit operator (and the authorities) to track the movement of individuals. In Finland, the Data Protection Ombudsman prohibited the transport operator YTV from collecting such information, in spite of YTV's argument that the owner of the card has the right to get a list of journeys paid with the card. Prior to this, such information was used in the investigation of the Myyrmanni bombing.
+
+Smart cards used for client-side identification and authentication are the most secure way for eg. internet banking applications, but the security is never 100% sure. In the example of internet banking, if the PC is infected with any kind of malware, the security model is broken. A malware can override the communication (both input via keyboard and output via application screen) between the user and the internet banking application (eg. browser). This would result in modifying transactions by the malware and unnoticed by the user. There are malwares in the wild with this capability (eg. Trojan. Silentbanker). Banks like Fortis and Dexia in Belgium combine a Smart card with an unconnected card reader to avoid this problem. The customer enters a challenge received from the bank's website, his PIN and the transaction amount into the card reader, the card reader returns an 8 digits signature. This signature is manually copied to the PC and verified by the bank. This method prevents a malware to change the transaction amount.
+
+In addition to technical hurdles is the lack of standards for smart card functionality and security.  To address this problem, the ERIDANE Project was launched by The Berlin Group to develop a proposal for "a new functional and security framework for smart-card based Point of Interaction (POI) equipment", equipment that would be used, for instance, in retail environments.
+
+
+
+
+
+
+
+
+
